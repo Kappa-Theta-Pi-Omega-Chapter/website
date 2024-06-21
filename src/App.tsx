@@ -1,9 +1,15 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./index.css";
+import Home from "./pages/Home";
+import routes from "./routes";
+
 function App() {
   return (
-    <div>
-      <img src="/ktp.png" alt="KTP" />
-      <div>KTP neu</div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path={routes.HOME} element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
