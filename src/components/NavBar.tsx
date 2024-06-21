@@ -2,7 +2,7 @@ import { IconButton, Stack, Toolbar } from "@mui/material";
 import { NavLink } from "react-router-dom";
 import { PrimaryDarkBlue } from "../colors";
 import routes from "../routes";
-import Text from "./Text";
+import TextCustom from "./TextCustom";
 
 function NavBar() {
   const navLinks = [
@@ -38,9 +38,9 @@ function NavBar() {
       <Stack direction="row" spacing={3} sx={{ marginLeft: "auto" }}>
         {navLinks.map((link) => (
           <NavLink to={link.route} style={{ textDecoration: "none" }}>
-            <Text color={PrimaryDarkBlue} fontSize={18}>
+            <TextCustom color={PrimaryDarkBlue} fontSize={18}>
               {link.text}
-            </Text>
+            </TextCustom>
           </NavLink>
         ))}
       </Stack>

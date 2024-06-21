@@ -10,7 +10,13 @@ interface TextProps {
   width?: number;
 }
 
-function Text({ children, fontWeight, fontSize, color, width }: TextProps) {
+function TextCustom({
+  children,
+  fontWeight,
+  fontSize,
+  color,
+  width,
+}: TextProps) {
   return (
     <Typography
       sx={{
@@ -27,4 +33,4 @@ function Text({ children, fontWeight, fontSize, color, width }: TextProps) {
   );
 }
 
-export default Text;
+export default TextCustom;

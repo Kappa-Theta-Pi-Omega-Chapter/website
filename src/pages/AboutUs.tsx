@@ -2,13 +2,13 @@ import { Stack } from "@mui/system";
 import NavBar from "../components/NavBar";
 import TextCustom from "../components/TextCustom";
 
-function Home() {
+function AboutUs() {
   return (
     <Stack>
       <NavBar />
-      <TextCustom>Home</TextCustom>
+      <TextCustom>About us</TextCustom>
     </Stack>
   );
 }
 
-export default Home;
+export default AboutUs;
