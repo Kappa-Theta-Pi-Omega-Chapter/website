@@ -1,0 +1,13 @@
+.header-wrapper {
+    margin: 4rem 6rem;
+}
+
+h2, h3 {
+    margin-top: 0.5rem;
+}
+
+.icon {
+    fill: var(--primary-dark-blue);
+    margin-right: 0.25rem;
+    height: 1rem;
+}
