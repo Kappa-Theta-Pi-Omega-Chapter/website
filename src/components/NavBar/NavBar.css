@@ -6,6 +6,6 @@
     font-weight: 600;
 }
 
-.nav-link:hover {
+.nav-link:hover, .nav-link-active {
     color: var(--primary-blue);
 }
