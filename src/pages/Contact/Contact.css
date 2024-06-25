@@ -9,14 +9,6 @@
     justify-content: space-between;
 }
 
-.contact-card {
-    flex: 1;
-}
-
-.contact-card-content {
-    margin-top: 1rem;
-}
-
 .contact-info-wrapper {
     display: flex;
     gap: 2rem;
