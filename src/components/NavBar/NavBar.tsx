@@ -1,15 +1,25 @@
 import { IconButton, Stack, Toolbar } from "@mui/material";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import routes from "../../routes";
 import "./NavBar.css";
 
 function NavBar() {
+  const currentLink = useLocation();
+
   const navLinks = [
     { route: routes.ABOUT_US, text: "About Us" },
     { route: routes.RUSH, text: "Rush" },
     { route: routes.MEMBERS, text: "Members" },
     { route: routes.CONTACT_US, text: "Contact" },
   ];
+
+  const generateClassName = (route: string) => {
+    let className = "nav-link";
+    if (route == location.pathname) {
+      className += " nav-link-active";
+    }
+    return className;
+  }
 
   return (
     <Toolbar
@@ -36,7 +46,7 @@ function NavBar() {
       </NavLink>
       <Stack direction="row" spacing={3} sx={{ marginLeft: "auto" }}>
         {navLinks.map((link) => (
-          <NavLink to={link.route} className={"nav-link"}>
+          <NavLink to={link.route} className={generateClassName(link.route)}>
             {link.text.toUpperCase()}
           </NavLink>
         ))}
