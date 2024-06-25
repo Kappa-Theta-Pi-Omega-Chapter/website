@@ -15,13 +15,15 @@ function App() {
     <BrowserRouter>
       <Stack>
         <NavBar />
-        <Routes>
-          <Route path={routes.HOME} element={<Home />} />
-          <Route path={routes.ABOUT_US} element={<AboutUs />} />
-          <Route path={routes.RUSH} element={<Rush />} />
-          <Route path={routes.MEMBERS} element={<Members />} />
-          <Route path={routes.CONTACT_US} element={<ContactUs />} />
-        </Routes>
+        <div className="content-wrapper">
+          <Routes>
+            <Route path={routes.HOME} element={<Home />} />
+            <Route path={routes.ABOUT_US} element={<AboutUs />} />
+            <Route path={routes.RUSH} element={<Rush />} />
+            <Route path={routes.MEMBERS} element={<Members />} />
+            <Route path={routes.CONTACT_US} element={<ContactUs />} />
+          </Routes>
+        </div>
       </Stack>
     </BrowserRouter>
   );
