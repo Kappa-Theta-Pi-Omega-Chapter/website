@@ -1,6 +1,25 @@
+:root {
+  --primary-blue: #458EFF;
+  --primary-dark-blue: #234C8B;
+  --primary-light-blue: #8BB9FF;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Lato", sans-serif;
+  color: #000;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-dark-blue);
 }

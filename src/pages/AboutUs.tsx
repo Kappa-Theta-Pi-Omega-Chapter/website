@@ -1,13 +1,8 @@
-import { Stack } from "@mui/system";
-import NavBar from "../components/NavBar";
-import TextCustom from "../components/TextCustom";
+import "../index.css";
 
 function AboutUs() {
   return (
-    <Stack>
-      <NavBar />
-      <TextCustom>About us</TextCustom>
-    </Stack>
+    <h1>About</h1>
   );
 }
 
