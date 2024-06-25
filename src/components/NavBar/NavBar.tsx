@@ -15,7 +15,7 @@ function NavBar() {
 
   const generateClassName = (route: string) => {
     let className = "nav-link";
-    if (route == location.pathname) {
+    if (route == currentLink.pathname) {
       className += " nav-link-active";
     }
     return className;
