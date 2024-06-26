@@ -1,29 +1,29 @@
 .wrapper {
-    padding: 2rem;
+    padding: 2rem 2rem 0 2rem;
 }
 
-.contact-card-wrapper {
+.contactCardWrapper {
     display: flex;
     flex-direction: row;
     gap: 4rem;
     justify-content: space-between;
 }
 
-.contact-info-wrapper {
+.contactInfoWrapper {
     display: flex;
     gap: 2rem;
     align-items: center;
     justify-content: center;
-    margin: 3rem 2rem;
+    margin: 3rem 2rem 0rem 2rem;
 }
 
-.contact-info-icon {
+.contactInfoIcon {
     fill: var(--primary-dark-blue);
     height: 1.5rem;
     width: 1.5rem;
 }
 
-.contact-info-item {
+.contactInfoItem {
     display: flex;
     gap: 0.5rem;
     align-items: center;
