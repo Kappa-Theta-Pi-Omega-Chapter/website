@@ -1,0 +1,32 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  height: 100vh;
+  gap: 1rem;
+}
+
+.rush-title {
+  font-weight: 900;
+  font-size: 4em;
+  color: var(--primary-dark-blue);
+}
+
+.rush-info {
+  font-size: 1.5em;
+}
+
+.rush-info-icon {
+  fill: var(--primary-dark-blue);
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.rush-info-item {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  text-decoration: none;
+  color: var(--primary-dark-blue);
+}

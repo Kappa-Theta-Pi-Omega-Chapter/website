@@ -4,7 +4,7 @@ import "./index.css";
 import Home from "./pages/Home/Home";
 import routes from "./routes";
 import AboutUs from "./pages/AboutUs";
-import Rush from "./pages/Rush";
+import Rush from "./pages/Rush/Rush";
 import Members from "./pages/Members";
 import Contact from "./pages/Contact/Contact";
 import NavBar from "./components/NavBar/NavBar";
