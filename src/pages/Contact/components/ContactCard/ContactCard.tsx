@@ -1,4 +1,4 @@
-import "./ContactCard.css";
+import styles from "./ContactCard.module.css";
 
 interface ContactCardProps {
     title: string;
@@ -7,9 +7,9 @@ interface ContactCardProps {
 
 function ContactCard({title, content}: ContactCardProps) {
   return (
-    <div className="contact-card">
+    <div>
         <h2>{title}</h2>
-        <p className="contact-card-content">{content}</p>
+        <p className={styles.contactCardContent}>{content}</p>
     </div>
   );
 }

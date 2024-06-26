@@ -1,4 +1,4 @@
-.nav-link {
+.navLink {
     color: var(--primary-dark-blue);
     font-size: 0.9rem;
     transition: 0.1s;
@@ -6,6 +6,6 @@
     font-weight: 600;
 }
 
-.nav-link:hover, .nav-link-active {
+.navLink:hover, .navLinkActive {
     color: var(--primary-blue);
 }

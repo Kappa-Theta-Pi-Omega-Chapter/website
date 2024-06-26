@@ -1,4 +1,4 @@
-import "../components/MemberCard.css";
+import styles from "./MemberCard.module.css";
 
 interface MemberCardProps {
   image: string;
@@ -8,11 +8,11 @@ interface MemberCardProps {
 
 function MemberCard({ image, name, position }: MemberCardProps) {
   return (
-    <div className="card">
-      <img src={image} alt={`${name}'s photo`} className="member-image" />
-      <div className="card-content">
-        <h2 className="member-title">{name}</h2>
-        <p className="member-position">{position}</p>
+    <div className={styles.card}>
+      <img src={image} alt={`${name}'s photo`} className={styles.memberImage} />
+      <div className={styles.cardContent}>
+        <h2 className={styles.memberTitle}>{name}</h2>
+        <p className={styles.memberPosition}>{position}</p>
       </div>
     </div>
   );

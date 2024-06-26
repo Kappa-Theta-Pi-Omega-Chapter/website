@@ -9,7 +9,7 @@
   align-items: center;
 }
 
-.member-image-container {
+.memberImageContainer {
   width: 150px;
   height: 150px;
   display: flex;
@@ -18,24 +18,24 @@
   overflow: hidden;
 }
 
-.member-image {
+.memberImage {
   width: 100%;
   height: auto;
   object-fit: cover;
 }
 
-.member-title {
+.memberTitle {
   font-size: 1.5rem;
   font-weight: 700;
   margin-top: 10px;
 }
 
-.member-position {
+.memberPosition {
   font-size: 1rem;
   font-weight: 700;
   margin-top: 10px;
 }
 
-.card-content {
+.cardContent {
   margin-top: 15px;
 }
