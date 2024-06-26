@@ -1,32 +1,32 @@
 .wrapper {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 .contact-card-wrapper {
-    display: flex;
-    flex-direction: row;
-    gap: 4rem;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  justify-content: space-between;
 }
 
 .contact-info-wrapper {
-    display: flex;
-    gap: 2rem;
-    align-items: center;
-    justify-content: center;
-    margin: 3rem 2rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 2rem;
 }
 
 .contact-info-icon {
-    fill: var(--primary-dark-blue);
-    height: 1.5rem;
-    width: 1.5rem;
+  fill: var(--primary-dark-blue);
+  height: 1.5rem;
+  width: 1.5rem;
 }
 
 .contact-info-item {
-    display: flex;
-    gap: 0.5rem;
-    align-items: center;
-    text-decoration: none;
-    color: var(--primary-dark-blue);
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  text-decoration: none;
+  color: var(--primary-dark-blue);
 }

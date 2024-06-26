@@ -5,7 +5,7 @@ import Home from "./pages/Home/Home";
 import routes from "./routes";
 import AboutUs from "./pages/AboutUs";
 import Rush from "./pages/Rush/Rush";
-import Members from "./pages/Members";
+import Members from "./pages/Members/Members";
 import Contact from "./pages/Contact/Contact";
 import NavBar from "./components/NavBar/NavBar";
 import { Stack } from "@mui/material";
