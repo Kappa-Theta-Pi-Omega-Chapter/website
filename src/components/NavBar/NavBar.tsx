@@ -1,4 +1,4 @@
-import { IconButton, Stack, Toolbar } from "@mui/material";
+import { IconButton, Stack } from "@mui/material";
 import { NavLink, useLocation } from "react-router-dom";
 import routes from "../../routes";
 import styles from "./NavBar.module.css";
@@ -23,15 +23,7 @@ function NavBar() {
   }
 
   return (
-    <Toolbar
-      sx={{
-        borderColor: "black",
-        height: 70,
-        width: "100%",
-        backgroundColor: "white",
-        boxShadow: "0 10px 10px rgba(211, 211, 211, 0.5)",
-      }}
-    >
+    <div className={styles.toolbar}>
       <NavLink to={routes.HOME}>
         <IconButton
           edge="start"
@@ -52,7 +44,7 @@ function NavBar() {
           </NavLink>
         ))}
       </Stack>
-    </Toolbar>
+    </div>
   );
 }
 
