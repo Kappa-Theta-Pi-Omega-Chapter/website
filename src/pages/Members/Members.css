@@ -1,0 +1,13 @@
+.wrapper {
+  margin: 10px;
+}
+
+.card-stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-stack > * {
+  margin: 10px;
+}
