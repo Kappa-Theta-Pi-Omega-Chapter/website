@@ -3,27 +3,26 @@
   flex-direction: column;
   align-items: center;
   padding: 2rem;
-  height: 100vh;
   gap: 3rem;
 }
 
-.rush-title {
+.rushTitle {
   font-weight: 900;
   font-size: 4em;
   color: var(--primary-dark-blue);
 }
 
-.rush-info {
+.rushInfo {
   font-size: 1.5em;
 }
 
-.rush-info-icon {
+.rushInfoIcon {
   fill: var(--primary-dark-blue);
   height: 1.5rem;
   width: 1.5rem;
 }
 
-.rush-info-item {
+.rushInfoItem {
   display: flex;
   gap: 0.5rem;
   align-items: center;

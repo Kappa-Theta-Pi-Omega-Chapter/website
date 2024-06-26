@@ -1,6 +1,6 @@
 import { MdEmail, MdPhone } from "react-icons/md";
 import { FaGithub, FaInstagram } from "react-icons/fa";
-import "./Contact.css";
+import styles from "./Contact.module.css";
 import ContactCard from "./components/ContactCard/ContactCard";
 
 function Contact() {
@@ -22,25 +22,25 @@ function Contact() {
   return (
     <>
       <h1>Contact Us</h1>
-      <div className="wrapper">
-        <div className="contact-card-wrapper">
+      <div className={styles.wrapper}>
+        <div className={styles.contactCardWrapper}>
           {contactCards.map((c) => <ContactCard title={c.title} content={c.content} />)}
         </div>
-        <div className="contact-info-wrapper">
-          <a href="mailto:example@gmail.com" className="contact-info-item">
-            <MdEmail className="contact-info-icon" />
+        <div className={styles.contactInfoWrapper}>
+          <a href="mailto:example@gmail.com" className={styles.contactInfoItem}>
+            <MdEmail className={styles.contactInfoIcon} />
             example@gmail.com
           </a>
-          <a href="tel:1234567890" className="contact-info-item">
-            <MdPhone className="contact-info-icon" />
+          <a href="tel:1234567890" className={styles.contactInfoItem}>
+            <MdPhone className={styles.contactInfoIcon} />
             1234567890
           </a>
-          <a href="https://instagram.com/ktpnortheastern" className="contact-info-item">
-            <FaInstagram className="contact-info-icon" />
+          <a href="https://instagram.com/ktpnortheastern" className={styles.contactInfoItem}>
+            <FaInstagram className={styles.contactInfoIcon} />
             ktpnortheastern
           </a>
-          <a href="https://github.com/ktpNortheastern" className="contact-info-item">
-            <FaGithub className="contact-info-icon" />
+          <a href="https://github.com/ktpNortheastern" className={styles.contactInfoItem}>
+            <FaGithub className={styles.contactInfoIcon} />
             ktpNortheastern
           </a>
         </div>
