@@ -12,7 +12,7 @@ export const executiveBoard = [
   {
     image: "/MemberPhotos/ktp.png",
     name: "Kevin Polackal",
-    position: "Unknown",
+    position: "Internal Operations",
   },
   {
     image: "/MemberPhotos/ktp.png",
@@ -26,23 +26,33 @@ export const executiveBoard = [
   },
   {
     image: "/MemberPhotos/ktp.png",
+    name: "Nicholas Byrne",
+    position: "Membership",
+  },
+  {
+    image: "/MemberPhotos/ktp.png",
     name: "Angela Mo",
-    position: "Unknown",
+    position: "Membership",
   },
   {
     image: "/MemberPhotos/ktp.png",
     name: "Alexandra Paul",
-    position: "Unknown",
+    position: "Engagement",
   },
   {
     image: "/MemberPhotos/ktp.png",
     name: "Calli Colvin",
-    position: "Unknown",
+    position: "Marketing",
   },
   {
     image: "/MemberPhotos/ktp.png",
     name: "Gayatri Kondabathini",
-    position: "Unknown",
+    position: "Professional Development",
+  },
+  {
+    image: "/MemberPhotos/ktp.png",
+    name: "Rachel Chen",
+    position: "Philanthropy",
   },
 ];
 
@@ -51,11 +61,6 @@ export const advisoryBoard = [
     image: "/MemberPhotos/ktp.png",
     name: "Aidan Niceberg",
     position: "Technical Development",
-  },
-  {
-    image: "/MemberPhotos/ktp.png",
-    name: "Nicholas Byrne",
-    position: "Unknown",
   },
   {
     image: "/MemberPhotos/ktp.png",
