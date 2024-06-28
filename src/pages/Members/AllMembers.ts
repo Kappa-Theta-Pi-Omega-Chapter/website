@@ -60,12 +60,12 @@ export const advisoryBoard = [
   {
     image: "/MemberPhotos/ktp.png",
     name: "Aidan Niceberg",
-    position: "Technical Development",
+    position: "VP of Technical Development",
   },
   {
     image: "/MemberPhotos/ktp.png",
     name: "TJ Blancato",
-    position: "Finance",
+    position: "VP of Finance",
   },
 ];
 
@@ -73,6 +73,5 @@ export const activeMembers = [
   {
     image: "/MemberPhotos/ktp.png",
     name: "None",
-    position: "Member",
   },
 ];
