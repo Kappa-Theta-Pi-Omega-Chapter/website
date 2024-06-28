@@ -1,18 +1,18 @@
 import styles from "./MemberCard.module.css";
 
-interface MemberCardProps {
+export interface MemberCardProps {
   image: string;
   name: string;
-  position: string;
+  position?: string;
 }
 
 function MemberCard({ image, name, position }: MemberCardProps) {
   return (
     <div className={styles.card}>
-      <img src={image} alt={`${name}'s photo`} className={styles.memberImage} />
+      <img src={image} alt={name} className={styles.memberImage} />
       <div className={styles.cardContent}>
-        <h2 className={styles.memberTitle}>{name}</h2>
-        <p className={styles.memberPosition}>{position}</p>
+        <h3>{name}</h3>
+        {!!position && <p>{position}</p>}
       </div>
     </div>
   );
