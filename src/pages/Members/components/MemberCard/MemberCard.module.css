@@ -1,5 +1,5 @@
 .card {
-  width: 15rem;
+  width: 14rem;
   padding: 1rem;
   border-radius: 0.5rem;
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
@@ -18,3 +18,10 @@
   flex-direction: column;
   gap: 0.5rem;
 }
+
+@media (max-width: 768px) {
+  .card {
+    width: 10rem;
+  }
+}
+

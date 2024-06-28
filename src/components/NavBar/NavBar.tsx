@@ -37,7 +37,7 @@ function NavBar() {
           />
         </IconButton>
       </NavLink>
-      <Stack direction="row" spacing={3} sx={{ marginLeft: "auto" }}>
+      <Stack direction="row" spacing={4} sx={{ marginLeft: "auto" }}>
         {navLinks.map((link) => (
           <NavLink to={link.route} className={generateClassNames(link.route)}>
             {link.text.toUpperCase()}
