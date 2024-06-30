@@ -16,7 +16,7 @@ function NavBar() {
           <img className={styles.homeImg} src="/src/assets/KTP_Text_Logo.png" />
         </NavLink>
         <div className={styles.linkWrapper}>
-          <NavBarLinks highlightActive />
+          <NavBarLinks onClick={() => setMenuOpen(false)} highlightActive />
         </div>
         <GiHamburgerMenu className={styles.menuIcon} onClick={() => setMenuOpen(true)} />
       </div>

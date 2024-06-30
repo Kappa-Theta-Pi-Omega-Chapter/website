@@ -5,9 +5,10 @@ import { NAVBAR_ROUTES } from "../../constants";
 
 interface NavBarLinksProps {
     highlightActive?: boolean;
+    onClick: () => void;
 }
 
-function NavBarLinks({highlightActive}: NavBarLinksProps) {
+function NavBarLinks({highlightActive, onClick}: NavBarLinksProps) {
   const currentLink = useLocation();
 
   const generateClassNames = (route: string) => {
@@ -19,7 +20,7 @@ function NavBarLinks({highlightActive}: NavBarLinksProps) {
   }
 
   return NAVBAR_ROUTES.map((link) => (
-    <NavLink key={link.text} to={link.route} className={generateClassNames(link.route)} onClick={() => setMenuOpen(false)}>
+    <NavLink key={link.text} to={link.route} className={generateClassNames(link.route)} onClick={onClick}>
         {link.text.toUpperCase()}
     </NavLink>));
 }
