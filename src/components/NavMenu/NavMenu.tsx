@@ -19,7 +19,7 @@ function NavMenu({open, onClose}: NavMenuProps) {
                 <IoClose className={styles.closeIcon} onClick={onClose} />
             </div>
             <div className={styles.menuLinkWrapper}>
-                <NavBarLinks />
+                <NavBarLinks onClick={onClose} />
             </div>
         </div>
     )
