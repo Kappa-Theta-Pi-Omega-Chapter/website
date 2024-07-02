@@ -8,7 +8,7 @@
 
 .rushTitle {
   font-weight: 900;
-  font-size: 4em;
+  font-size: 3em;
   color: var(--primary-dark-blue);
 }
 
@@ -28,4 +28,15 @@
   align-items: center;
   text-decoration: none;
   color: var(--primary-dark-blue);
+}
+
+@media (max-width: 768px) {
+  .rushTitle {
+    font-weight: 600;
+    font-size: 2em;
+  }
+
+  .rushInfo {
+    font-size: 1em;
+  }
 }

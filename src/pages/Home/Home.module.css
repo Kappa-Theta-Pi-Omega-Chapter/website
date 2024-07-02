@@ -1,15 +1,36 @@
-h2, h3 {
-    margin-top: 0.5rem;
+h2,
+h3 {
+  margin-top: 0.5rem;
+}
+
+.navLink {
+  text-decoration: none;
+}
+
+.rushButton {
+  color: var(--primary-dark-blue);
+  background-color: white;
+  border: 2px solid var(--primary-dark-blue);
+  border-radius: 1.5rem;
+  height: 3rem;
+  width: 10rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.rushButton:hover {
+  color: var(--primary-blue);
+  border-color: var(--primary-blue);
 }
 
 .icon {
-    fill: var(--primary-dark-blue);
-    margin-right: 0.25rem;
-    height: 1rem;
+  fill: var(--primary-dark-blue);
+  margin-right: 0.25rem;
+  height: 1rem;
 }
 
 @media (max-width: 768px) {
-    .wrapper {
-        text-align: center;
-    }
+  .wrapper {
+    text-align: center;
+  }
 }
