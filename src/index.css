@@ -4,6 +4,7 @@
   --primary-light-blue: #8BB9FF;
   --secondary-green: #8ddd8d;
   --secondary-dark-green: #538a53;
+  --background-blue: #f5f8fd;
 }
 
 * {
@@ -20,6 +21,10 @@ h1 {
 
 h2 {
   font-weight: 700;
+}
+
+p {
+  font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, h6 {
