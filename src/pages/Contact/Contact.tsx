@@ -33,8 +33,7 @@ function Contact() {
         </div>
         <div className={styles.contactInfoWrapper}>
           <a
-            href="ktp.northeastern@gmail.com"
-            target="_blank"
+            href="mailto:ktp.northeastern@gmail.com"
             className={styles.contactInfoItem}
           >
             <MdEmail className={styles.contactInfoIcon} />
