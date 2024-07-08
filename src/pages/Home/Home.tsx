@@ -16,11 +16,9 @@ function Home() {
         <FaLocationDot className={styles.icon} />
         Boston, MA
       </h3>
-      <h3>
-        <NavLink to="/rush" className={styles.navLink}>
-          <button className={styles.rushButton}>Rush!</button>
-        </NavLink>
-      </h3>
+      <NavLink to="/rush" className={styles.navLink}>
+        <button className={styles.rushButton}>Rush!</button>
+      </NavLink>
     </div>
   );
 }
