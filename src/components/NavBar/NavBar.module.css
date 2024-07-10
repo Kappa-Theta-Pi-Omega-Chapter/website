@@ -50,7 +50,7 @@
 }
 
 /* small screens */
-@media (max-width: 768px) {
+@media (max-width: 925px) {
   .toolbar {
     padding: 1rem 2rem;
   }

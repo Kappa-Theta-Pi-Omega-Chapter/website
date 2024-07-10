@@ -1,24 +1,26 @@
-import { FaLocationDot } from "react-icons/fa6";
-import { IoSchool } from "react-icons/io5";
 import { NavLink } from "react-router-dom";
+import ComputerScreen from "../../assets/Computer-Image.png";
 import styles from "./Home.module.css";
 
 function Home() {
   return (
-    <div className={styles.wrapper}>
-      <h1>Kappa Theta Pi</h1>
-      <h2>Professional Technology Fraternity</h2>
-      <h3>
-        <IoSchool className={styles.icon} />
-        Northeastern University
-      </h3>
-      <h3>
-        <FaLocationDot className={styles.icon} />
-        Boston, MA
-      </h3>
-      <NavLink to="/rush" className={styles.navLink}>
-        <button className={styles.rushButton}>Rush!</button>
-      </NavLink>
+    <div className={styles.container}>
+      <div className={styles.textContainer}>
+        <h1 className={styles.heading}>Kappa Theta Pi</h1>
+        <div className={styles.subheading}>
+          Professional Technology Fraternity
+        </div>
+        <NavLink to="/rush" className={styles.navLink}>
+          <button className={styles.rushButton}>RUSH</button>
+        </NavLink>
+      </div>
+      <div className={styles.displayContainer}>
+        <img
+          src={ComputerScreen}
+          alt="Example computer screen"
+          className={styles.computer}
+        />
+      </div>
     </div>
   );
 }
