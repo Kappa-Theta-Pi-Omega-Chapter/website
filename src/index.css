@@ -1,7 +1,7 @@
 :root {
-  --primary-blue: #458EFF;
-  --primary-dark-blue: #234C8B;
-  --primary-light-blue: #8BB9FF;
+  --primary-blue: #458eff;
+  --primary-dark-blue: #234c8b;
+  --primary-light-blue: #8bb9ff;
   --secondary-green: #8ddd8d;
   --secondary-dark-green: #538a53;
   --background-blue: #f5f8fd;
@@ -11,7 +11,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Lato", sans-serif;
+  font-family: "Cabin", sans-serif;
   color: #000;
 }
 
@@ -27,7 +27,12 @@ p {
   font-weight: 300;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: var(--primary-dark-blue);
 }
 

@@ -1,6 +1,33 @@
-h2,
-h3 {
-  margin-top: 0.5rem;
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 4rem;
+}
+
+.displayContainer {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.computer {
+  width: 100%;
+  max-width: 700px;
+}
+
+.heading {
+  font-size: 4rem;
+}
+
+.subheading {
+  font-size: 2rem;
+  color: var(--primary-blue);
 }
 
 .navLink {
@@ -15,8 +42,8 @@ h3 {
   border: 2px solid var(--secondary-green);
   cursor: pointer;
   border-radius: 0.5rem;
-  padding: 0.75rem 3rem;
-  font-size: 1rem;
+  padding: 0.75rem 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   transition: 0.1s;
 }
@@ -26,14 +53,15 @@ h3 {
   background: #fff;
 }
 
-.icon {
-  fill: var(--primary-dark-blue);
-  margin-right: 0.25rem;
-  height: 1rem;
-}
-
-@media (max-width: 768px) {
-  .wrapper {
+@media (max-width: 925px) {
+  .container {
+    flex-direction: column;
+  }
+  .textContainer {
     text-align: center;
+    padding-top: 2rem;
+  }
+  .displayContainer {
+    padding-top: 2rem;
   }
 }

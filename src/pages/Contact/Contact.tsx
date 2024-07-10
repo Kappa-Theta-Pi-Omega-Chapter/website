@@ -24,7 +24,6 @@ function Contact() {
 
   return (
     <>
-      <h1>Contact Us</h1>
       <div className={styles.wrapper}>
         <div className={styles.contactCardWrapper}>
           {contactCards.map((c) => (

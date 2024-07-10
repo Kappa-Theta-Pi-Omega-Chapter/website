@@ -1,47 +1,65 @@
 .toolbar {
-    position: fixed;
-    top: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #fff;
-    box-shadow: 0 2px 10px rgba(211, 211, 211, 0.5);
-    padding: 1rem 4rem;
-    width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(211, 211, 211, 0.5);
+  padding: 1rem 4rem;
+  width: 100%;
 }
 
-.homeImg {
-    height: 1.5rem;
+.headingContainer {
+  display: flex;
+  align-items: center;
+}
+
+.headingText {
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: noto serif;
+  color: var(--primary-dark-blue);
+}
+
+.descriptionContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.descriptionText {
+  color: var(--primary-blue);
 }
 
 .linkWrapper {
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
 }
 
 .menuIcon {
-    fill: var(--primary-dark-blue);
-    display: none;
-    cursor: pointer;
-    transition: 0.1s;
+  fill: var(--primary-dark-blue);
+  display: none;
+  cursor: pointer;
+  transition: 0.1s;
 }
 
 .menuIcon:hover {
-    fill: var(--primary-blue);
+  fill: var(--primary-blue);
 }
 
 /* small screens */
-@media (max-width: 768px) {
-    .toolbar {
-      padding: 1rem 2rem;
-    }
+@media (max-width: 925px) {
+  .toolbar {
+    padding: 1rem 2rem;
+  }
 
-    .linkWrapper {
-        display: none;
-    }
+  .linkWrapper {
+    display: none;
+  }
 
-    .menuIcon {
-        display: block;
-    }
+  .menuIcon {
+    display: block;
+  }
 }
