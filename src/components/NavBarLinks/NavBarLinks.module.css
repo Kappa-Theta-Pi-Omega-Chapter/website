@@ -7,5 +7,5 @@
 
 .navLink:hover,
 .navLinkActive {
-  color: var(--primary-blue);
+  color: var(--secondary-green);
 }
