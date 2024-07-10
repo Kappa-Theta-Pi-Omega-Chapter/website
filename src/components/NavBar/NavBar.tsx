@@ -1,10 +1,10 @@
-import { NavLink } from "react-router-dom";
-import styles from "./NavBar.module.css";
-import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
-import NavMenu from "../NavMenu/NavMenu";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { NavLink } from "react-router-dom";
 import { ROUTES } from "../../constants";
 import NavBarLinks from "../NavBarLinks/NavBarLinks";
+import NavMenu from "../NavMenu/NavMenu";
+import styles from "./NavBar.module.css";
 
 function NavBar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,13 +12,25 @@ function NavBar() {
   return (
     <>
       <div className={styles.toolbar}>
-        <NavLink to={ROUTES.HOME}>
-          <img className={styles.homeImg} src="/src/assets/KTP_Text_Logo.png" />
-        </NavLink>
+        <div className={styles.headingContainer}>
+          <NavLink to={ROUTES.HOME} style={{ textDecoration: "none" }}>
+            <div className={styles.headingText}>ΚΘΠ</div>
+          </NavLink>
+          <div className={styles.descriptionContainer}>
+            <div className={styles.descriptionText}>KAPPA THETA PI</div>
+            <div className={styles.descriptionText}>
+              OMEGA COLONY • NORTHEASTERN
+            </div>
+          </div>
+        </div>
+
         <div className={styles.linkWrapper}>
           <NavBarLinks onClick={() => setMenuOpen(false)} highlightActive />
         </div>
-        <GiHamburgerMenu className={styles.menuIcon} onClick={() => setMenuOpen(true)} />
+        <GiHamburgerMenu
+          className={styles.menuIcon}
+          onClick={() => setMenuOpen(true)}
+        />
       </div>
       <NavMenu open={menuOpen} onClose={() => setMenuOpen(false)} />
     </>
