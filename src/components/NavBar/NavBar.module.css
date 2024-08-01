@@ -54,7 +54,7 @@
 .linkWrapper {
   display: flex;
   flex-direction: row;
-  gap: 2.01rem;
+  gap: 2rem;
 }
 
 .menuIcon {
