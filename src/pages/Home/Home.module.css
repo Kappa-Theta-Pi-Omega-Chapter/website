@@ -14,11 +14,13 @@
   display: flex;
   justify-content: center;
   flex: 1;
+  margin-top: 4%;
+  margin-left: 7%;
 }
 
 .computer {
   width: 100%;
-  max-width: 700px;
+  max-width: 600px;
 }
 
 .heading {
@@ -31,9 +33,10 @@
 }
 
 .navLink {
-  text-decoration: none;
-  display: inline-block;
   margin-top: 1rem;
+  text-decoration: none;
+  width: fit-content;
+  height: fit-content;
 }
 
 .rushButton {
@@ -41,16 +44,25 @@
   color: #fff;
   border: 2px solid var(--secondary-green);
   cursor: pointer;
-  border-radius: 0.5rem;
-  padding: 0.75rem 2rem;
-  font-size: 1.5rem;
-  font-weight: 700;
-  transition: 0.1s;
+  border-radius: 0.6rem;
+  font-size: 2.4rem;
+  padding-top: 5px;
+  font-weight: 400;
+  font-family: "Dongle";
+  height: 45px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
 }
 
 .rushButton:hover {
   color: var(--secondary-green);
+  box-shadow: -2px 4px 10px rgba(0, 0, 0, 0.4);
   background: #fff;
+  transform: translateY(-5px);
 }
 
 @media (max-width: 925px) {
@@ -60,8 +72,13 @@
   .textContainer {
     text-align: center;
     padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .displayContainer {
     padding-top: 2rem;
+    margin-top: 0;
+    margin-left: 0;
   }
 }

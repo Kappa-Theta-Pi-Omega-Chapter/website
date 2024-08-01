@@ -31,31 +31,38 @@ function Contact() {
           ))}
         </div>
         <div className={styles.contactInfoWrapper}>
-          <a
-            href="mailto:ktp.northeastern@gmail.com"
-            className={styles.contactInfoItem}
-          >
-            <MdEmail className={styles.contactInfoIcon} />
-            <span className={styles.contactInfoContent}>
-              ktp.northeastern@gmail.com
-            </span>
-          </a>
-          <a
-            href="https://instagram.com/ktpboston"
-            target="_blank"
-            className={styles.contactInfoItem}
-          >
-            <FaInstagram className={styles.contactInfoIcon} />
-            <span className={styles.contactInfoContent}>ktpboston</span>
-          </a>
-          <a
-            href="https://github.com/ktpNortheastern"
-            target="_blank"
-            className={styles.contactInfoItem}
-          >
-            <FaGithub className={styles.contactInfoIcon} />
-            <span className={styles.contactInfoContent}>ktpNortheastern</span>
-          </a>
+          <div className={styles.contactInfoGroup}>
+            {" "}
+            <a
+              href="mailto:ktp.northeastern@gmail.com"
+              className={styles.contactInfoItem}
+            >
+              <MdEmail className={styles.contactInfoIcon} />
+              <span className={styles.contactInfoContent}>
+                ktp.northeastern@gmail.com
+              </span>
+            </a>
+          </div>
+          <div className={styles.contactInfoGroup}>
+            <a
+              href="https://instagram.com/ktpboston"
+              target="_blank"
+              className={styles.contactInfoItem}
+            >
+              <FaInstagram className={styles.contactInfoIcon} />
+              <span className={styles.contactInfoContent}>ktpboston</span>
+            </a>
+          </div>
+          <div className={styles.contactInfoGroup}>
+            <a
+              href="https://github.com/ktpNortheastern"
+              target="_blank"
+              className={styles.contactInfoItem}
+            >
+              <FaGithub className={styles.contactInfoIcon} />
+              <span className={styles.contactInfoContent}>ktpNortheastern</span>
+            </a>
+          </div>
         </div>
       </div>
     </>

@@ -6,13 +6,18 @@ interface MemberCardStackProps {
   members: Array<MemberCardProps>;
 }
 
-function MemberCardStack({title, members}: MemberCardStackProps) {
+function MemberCardStack({ title, members }: MemberCardStackProps) {
   return (
     <div className={styles.wrapper}>
       <h2 className={styles.header}>{title}</h2>
       <div className={styles.cardStack}>
         {members.map((m) => (
-          <MemberCard image={m.image} name={m.name} position={m.position} />
+          <MemberCard
+            link={m.link}
+            image={m.image}
+            name={m.name}
+            position={m.position}
+          />
         ))}
       </div>
     </div>
