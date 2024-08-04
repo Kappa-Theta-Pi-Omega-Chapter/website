@@ -21,7 +21,9 @@ function Rush() {
         </div>
       </section>
       <section className={styles.section}>
-        <Timeline />
+        <div className={styles.wrapper}>
+          <Timeline />
+        </div>
       </section>
     </>
   );
