@@ -13,7 +13,7 @@ const events = [
   },
   {
     date: "March 2024",
-    description: "Interviews and Final Selections",
+    description: "Interviews",
     location: "Dodge Hall",
   },
   {

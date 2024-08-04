@@ -50,6 +50,8 @@
 
 .description,
 .location {
+  text-align: center;
+  width: 200px;
   font-size: 1em;
   color: #333;
 }
