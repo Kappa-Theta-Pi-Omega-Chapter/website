@@ -30,6 +30,17 @@
   color: var(--primary-dark-blue);
 }
 
+.section:nth-child(even) {
+  background: var(--background-blue);
+}
+
+@media (min-width: 769px) {
+  .container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
 @media (max-width: 768px) {
   .rushTitle {
     font-weight: 600;
