@@ -9,7 +9,14 @@
 .memberImage {
   width: 100%;
   height: auto;
+  border-radius: 5px;
   object-fit: cover;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.memberImage:hover {
+  cursor: pointer;
+  opacity: 0.75;
 }
 
 .cardContent {
@@ -24,4 +31,3 @@
     width: 10rem;
   }
 }
-

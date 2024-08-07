@@ -17,8 +17,8 @@ function NavBar() {
             <div className={styles.headingText}>ΚΘΠ</div>
           </NavLink>
           <div className={styles.descriptionContainer}>
-            <div className={styles.descriptionText}>KAPPA THETA PI</div>
-            <div className={styles.descriptionText}>
+            <div className={styles.descriptionTextPrimary}>KAPPA THETA PI</div>
+            <div className={styles.descriptionTextSecondary}>
               OMEGA COLONY • NORTHEASTERN
             </div>
           </div>
@@ -29,6 +29,7 @@ function NavBar() {
         </div>
         <GiHamburgerMenu
           className={styles.menuIcon}
+          style={{ fontSize: "2rem" }}
           onClick={() => setMenuOpen(true)}
         />
       </div>

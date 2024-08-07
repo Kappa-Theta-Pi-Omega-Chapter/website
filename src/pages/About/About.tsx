@@ -7,7 +7,7 @@ import PillarCard from "./components/PillarCard/PillarCard";
 function About() {
   const bullets = [
     { key: "Founded Nationally", value: "January 10th, 2012" },
-    { key: "Founded at Northeastern", value: "2024" },
+    { key: "Founded at Northeastern University", value: "June 2024" },
     { key: "Motto", value: '"For the Love of Technology"' },
   ];
 
