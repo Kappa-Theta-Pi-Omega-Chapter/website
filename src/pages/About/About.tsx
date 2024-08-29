@@ -1,5 +1,4 @@
 import classNames from "classnames";
-import KTPlogo from "../../assets/ktp.png";
 import styles from "./About.module.css";
 import KeyValueDisplay from "./components/KeyValueDisplay/KeyValueDisplay";
 import PillarCard from "./components/PillarCard/PillarCard";
