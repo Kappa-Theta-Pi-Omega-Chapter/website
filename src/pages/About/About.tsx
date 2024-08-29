@@ -45,20 +45,20 @@ function About() {
         <h2>History</h2>
         <div className={styles.historyContent}>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
+            Kappa Theta Pi takes pride in being the first professional
+            technology in the country, now coming to Northeastern University.
+            Our members are passionate about technology and are dedicated to
+            making a positive impact on the world. We are a community of
+            like-minded individuals who share a love for technology and a desire
+            to learn, grow, excel, and succeed together.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
+            Our community is made up of individuals from all across campus,
+            including designers, analysts, computer scientists, engineers,
+            artists, entrepreneurs, economists, philosophers, psychologists, and
+            many others. The strength of KTP lies in our shared enthusiasm for
+            technology and the way our diverse experiences blend into a unified
+            whole.
           </p>
         </div>
         <div className={styles.historyBullets}>
@@ -75,7 +75,7 @@ function About() {
           ))}
         </div>
       </section>
-      <section className={styles.section}>
+      {/* <section className={styles.section}>
         <h2>President's Welcome</h2>
         <div className={styles.welcomeContent}>
           <img
@@ -95,7 +95,7 @@ function About() {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

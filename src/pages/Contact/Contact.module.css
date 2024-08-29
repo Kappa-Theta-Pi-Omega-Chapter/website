@@ -21,22 +21,25 @@
   display: flex;
   flex-direction: row;
   gap: 1rem;
+  transition: all 0.3s ease-in-out;
 }
 
 .contactInfoGroup:hover .contactInfoIcon,
 .contactInfoGroup:hover .contactInfoContent {
-  color: var(--primary-light-blue); /* Change color to light blue on hover */
-  fill: var(--primary-light-blue); /* Ensure icons also change color */
+  color: var(--primary-dark-blue);
+  fill: var(--primary-dark-blue);
 }
 
 .contactInfoIcon {
-  fill: var(--primary-dark-blue);
+  fill: var(--primary-blue);
   height: 1.5rem;
   width: 1.5rem;
+  transition: all 0.3s ease-in-out;
 }
 
 .contactInfoContent {
-  color: var(--primary-dark-blue);
+  color: var(--primary-blue);
+  transition: all 0.3s ease-in-out;
 }
 
 .contactInfoItem {

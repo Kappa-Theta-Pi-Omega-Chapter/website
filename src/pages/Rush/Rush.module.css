@@ -4,6 +4,7 @@
   align-items: center;
   padding: 2rem;
   gap: 3rem;
+  margin-bottom: 100px;
 }
 
 .rushTitle {
@@ -12,14 +13,25 @@
   color: var(--primary-dark-blue);
 }
 
+.rushContainer {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
 .rushInfo {
   font-size: 1.5em;
 }
 
 .rushInfoIcon {
-  fill: var(--primary-dark-blue);
+  fill: inherit;
   height: 1.5rem;
   width: 1.5rem;
+  color: inherit;
+  transition: fill 0.3s ease-in-out;
 }
 
 .rushInfoItem {
@@ -27,7 +39,14 @@
   gap: 0.5rem;
   align-items: center;
   text-decoration: none;
+  color: var(--primary-blue);
+  fill: var(--primary-blue);
+  transition: color 0.3s ease-in-out;
+}
+
+.rushInfoItem:hover {
   color: var(--primary-dark-blue);
+  fill: var(--primary-dark-blue);
 }
 
 .section:nth-child(odd) {

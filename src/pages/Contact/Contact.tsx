@@ -8,17 +8,12 @@ function Contact() {
     {
       title: "Students",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    },
-    {
-      title: "Clients",
-      content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "Hello, prospectives! We're excited that you're interested in learning about our fraternity, and we're here to support you throughout the process. If you have any questions about our organization, upcoming events, or how to get involved, don't hesitate to contact us. Our team is ready to provide all the details you need to make an informed choice about joining us. Just send us an email at ktp.northeastern@gmail.com, and we'll respond promptly. We can't wait to connect with you and share the amazing experiences our fraternity offers.",
     },
     {
       title: "Companies",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "Hello, companies and potential collaborators! We appreciate your interest in partnering with us. We believe that strong partnerships are key to driving innovation and achieving success. If you're interested in exploring opportunities for collaboration, sponsorship, or other business-related inquiries, we’d love to hear from you. We're excited to discuss how we can work together to reach our shared goals and create a lasting impact. Please feel free to contact us at ktp.northeastern@gmail.com, and our dedicated team will be thrilled to connect with you. Let's embark on a journey of growth and success together.",
     },
   ];
 
