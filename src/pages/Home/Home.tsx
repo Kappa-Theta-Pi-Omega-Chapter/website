@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
-import ComputerScreen from "../../assets/Computer-Image.png";
 import styles from "./Home.module.css";
+import Laptop from "../../components/Laptop/Laptop";
 
 function Home() {
   return (
@@ -15,11 +15,7 @@ function Home() {
         </NavLink>
       </div>
       <div className={styles.displayContainer}>
-        <img
-          src={ComputerScreen}
-          alt="Example computer screen"
-          className={styles.computer}
-        />
+        <Laptop />
       </div>
     </div>
   );
