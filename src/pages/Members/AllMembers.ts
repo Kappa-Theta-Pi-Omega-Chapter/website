@@ -1,6 +1,37 @@
 import AlexandraPaul from "/MemberPhotos/AlexandraPaul.png";
 import LoreleiDuarte from "/MemberPhotos/LoreleiDuarte.png";
 import WilliamAnderson from "/MemberPhotos/WilliamAnderson.png";
+import CalliColvin from "/MemberPhotos/CalliColvin.png";
+
+import GraceUecker from "/MemberPhotos/GraceUecker.png";
+import MichealBrennan from "/MemberPhotos/MichealBrennan.png";
+import QuinnCahill from "/MemberPhotos/QuinnCahill.png";
+import KevinCooper from "/MemberPhotos/KevinCooper.png";
+import ArminaParvaresh from "/MemberPhotos/ArminaParvaresh.png";
+import MeiLuangkhot from "/MemberPhotos/MeiLuangkhot.png";
+import RohanSunkara from "/MemberPhotos/RohanSunkara.png";
+import JackDreifus from "/MemberPhotos/JackDreifus.png";
+import OwenSharpe from "/MemberPhotos/OwenSharpe.png";
+import JoshBarde from "/MemberPhotos/JoshBarde.png";
+import MariamKhalil from "/MemberPhotos/MariamKhalil.png";
+import RichardZhao from "/MemberPhotos/RichardZhao.png";
+import ErikaKirchbach from "/MemberPhotos/ErikaKirchbach.png";
+import SebastianTremblay from "/MemberPhotos/SebastianTremblay.png";
+import FraniPendus from "/MemberPhotos/FraniPendus.png";
+import ElizabethFallat from "/MemberPhotos/ElizabethFallat.png";
+import JakeBernhard from "/MemberPhotos/JakeBernhard.png";
+import JulianaGuarrera from "/MemberPhotos/JulianaGuarrera.png";
+import DariusAlu from "/MemberPhotos/DariusAlu.png";
+import EashaPatel from "/MemberPhotos/EashaPatel.png";
+import HenryCaldwell from "/MemberPhotos/HenryCaldwell.png";
+import SydneySchulz from "/MemberPhotos/SydneySchulz.png";
+import AylaUrquizo from "/MemberPhotos/FraniPendus.png";
+import ZacharyWen from "/MemberPhotos/ZacharyWen.png";
+//import RhiannaDSilva from "/MemberPhotos/RhiannaDSilva.png";
+import VinceSchacknies from "/MemberPhotos/VinceSchacknies.png";
+import AmeliaRogers from "/MemberPhotos/AmeliaRogers.png";
+import ArshJafri from "/MemberPhotos/ArshJafri.png";
+import ktplogo from "/MemberPhotos/ktp.png";
 
 export const executiveBoard = [
   {
@@ -52,7 +83,7 @@ export const executiveBoard = [
     link: "https://www.linkedin.com/in/alexandra-paul-aba338262/",
   },
   {
-    image: "/MemberPhotos/ktp.png",
+    image: CalliColvin,
     name: "Calli Colvin",
     position: "VP of Marketing",
     link: "https://www.linkedin.com/in/calli-colvin-b720b32a8/",
@@ -76,118 +107,125 @@ export const executiveBoard = [
     link: "https://www.linkedin.com/in/aidanniceberg/",
   },
 ];
-
 export const activeMembers = [
   {
-    image: "/MemberPhotos/ktp.png",
+    image: ktplogo,
+    name: "Clara Santodomingo",
+  },
+  {
+    image: ktplogo,
+    name: "Rich Ferrentino",
+  },
+  {
+    image: KevinCooper,
     name: "Kevin Cooper",
   },
   {
-    image: "/MemberPhotos/ktp.png",
+    image: QuinnCahill,
     name: "Quinn Cahill",
   },
   {
-    image: "/MemberPhotos/ktp.png",
+    image: MichealBrennan,
     name: "Micheal Brennan",
   },
   {
-    image: "/MemberPhotos/ktp.png",
-    name: "Erika von Kirchbach",
+    image: ErikaKirchbach,
+    name: "Erika Kirchbach",
   },
   {
-    image: "/MemberPhotos/ktp.png",
+    image: SebastianTremblay,
     name: "Sebastian Tremblay",
   },
   {
-    image: "/MemberPhotos/ktp.png",
-    name: "Armina Parvaresh Rizi",
+    image: ArminaParvaresh,
+    name: "Armina Parvaresh",
   },
   {
-    image: "/MemberPhotos/ktp.png",
+    image: RichardZhao,
     name: "Richard Zhao",
   },
   {
-    image: "/MemberPhotos/ktp.png",
+    image: MeiLuangkhot,
     name: "Mei Luangkhot",
   },
   {
-    image: "/MemberPhotos/ktp.png",
+    image: GraceUecker,
     name: "Grace Uecker",
   },
   {
-    image: "/MemberPhotos/ktp.png",
+    image: FraniPendus,
     name: "Frani Pendus",
   },
   {
-    image: "/MemberPhotos/ktp.png",
+    image: MariamKhalil,
     name: "Mariam Khalil",
   },
   {
-    image: "/MemberPhotos/ktp.png",
+    image: ElizabethFallat,
     name: "Elizabeth Fallat",
   },
   {
-    image: "/MemberPhotos/ktp.png",
+    image: JakeBernhard,
     name: "Jake Bernhard",
   },
   {
-    image: "/MemberPhotos/ktp.png",
+    image: JulianaGuarrera,
     name: "Juliana Guarrera",
   },
   {
-    image: "/MemberPhotos/ktp.png",
+    image: DariusAlu,
     name: "Darius Alu",
   },
   {
-    image: "/MemberPhotos/ktp.png",
+    image: EashaPatel,
     name: "Easha Patel",
   },
   {
-    image: "/MemberPhotos/ktp.png",
+    image: HenryCaldwell,
     name: "Henry Caldwell",
   },
   {
-    image: "/MemberPhotos/ktp.png",
+    image: SydneySchulz,
     name: "Sydney Schulz",
   },
   {
-    image: "/MemberPhotos/ktp.png",
+    image: OwenSharpe,
     name: "Owen Sharpe",
   },
   {
-    image: "/MemberPhotos/ktp.png",
+    image: AylaUrquizo,
     name: "Ayla Urquizo",
   },
   {
-    image: "/MemberPhotos/ktp.png",
+    image: ZacharyWen,
     name: "Zachary Wen",
   },
   {
-    image: "/MemberPhotos/ktp.png",
+    image: ktplogo,
     name: "Rhianna D'Silva",
   },
   {
-    image: "/MemberPhotos/ktp.png",
+    image: VinceSchacknies,
     name: "Vince Schacknies",
   },
   {
-    image: "/MemberPhotos/ktp.png",
+    image: ArshJafri,
     name: "Arsh Jafri",
   },
   {
-    image: "/MemberPhotos/ktp.png",
+    image: RohanSunkara,
     name: "Rohan Sunkara",
   },
   {
-    image: "/MemberPhotos/ktp.png",
+    image: JackDreifus,
     name: "Jack Dreifus",
   },
   {
-    image: "/MemberPhotos/ktp.png",
+    image: JoshBarde,
     name: "Josh Barde",
   },
   {
-    image: "/MemberPhotos/ktp.png",
+    image: AmeliaRogers,
     name: "Amelia Rogers",
   },
 ];
