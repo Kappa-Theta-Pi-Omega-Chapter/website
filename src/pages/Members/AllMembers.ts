@@ -1,36 +1,43 @@
 import AlexandraPaul from "/MemberPhotos/AlexandraPaul.png";
+import CalliColvin from "/MemberPhotos/CalliColvin.png";
+import GayatriKondabathini from "/MemberPhotos/GayatriKondabathini.png";
+import KevinPolackal from "/MemberPhotos/KevinPolackal.png";
 import LoreleiDuarte from "/MemberPhotos/LoreleiDuarte.png";
 import WilliamAnderson from "/MemberPhotos/WilliamAnderson.png";
-import CalliColvin from "/MemberPhotos/CalliColvin.png";
 
-import GraceUecker from "/MemberPhotos/GraceUecker.png";
-import MichealBrennan from "/MemberPhotos/MichealBrennan.png";
-import QuinnCahill from "/MemberPhotos/QuinnCahill.png";
-import KevinCooper from "/MemberPhotos/KevinCooper.png";
 import ArminaParvaresh from "/MemberPhotos/ArminaParvaresh.png";
-import MeiLuangkhot from "/MemberPhotos/MeiLuangkhot.png";
-import RohanSunkara from "/MemberPhotos/RohanSunkara.png";
-import JackDreifus from "/MemberPhotos/JackDreifus.png";
-import OwenSharpe from "/MemberPhotos/OwenSharpe.png";
-import JoshBarde from "/MemberPhotos/JoshBarde.png";
-import MariamKhalil from "/MemberPhotos/MariamKhalil.png";
-import RichardZhao from "/MemberPhotos/RichardZhao.png";
-import ErikaKirchbach from "/MemberPhotos/ErikaKirchbach.png";
-import SebastianTremblay from "/MemberPhotos/SebastianTremblay.png";
-import FraniPendus from "/MemberPhotos/FraniPendus.png";
-import ElizabethFallat from "/MemberPhotos/ElizabethFallat.png";
-import JakeBernhard from "/MemberPhotos/JakeBernhard.png";
-import JulianaGuarrera from "/MemberPhotos/JulianaGuarrera.png";
 import DariusAlu from "/MemberPhotos/DariusAlu.png";
 import EashaPatel from "/MemberPhotos/EashaPatel.png";
+import ElizabethFallat from "/MemberPhotos/ElizabethFallat.png";
+import ErikaKirchbach from "/MemberPhotos/ErikaKirchbach.png";
+import {
+  default as AylaUrquizo,
+  default as FraniPendus,
+} from "/MemberPhotos/FraniPendus.png";
+import GraceUecker from "/MemberPhotos/GraceUecker.png";
 import HenryCaldwell from "/MemberPhotos/HenryCaldwell.png";
+import JackDreifus from "/MemberPhotos/JackDreifus.png";
+import JakeBernhard from "/MemberPhotos/JakeBernhard.png";
+import JoshBarde from "/MemberPhotos/JoshBarde.png";
+import JulianaGuarrera from "/MemberPhotos/JulianaGuarrera.png";
+import KevinCooper from "/MemberPhotos/KevinCooper.png";
+import MariamKhalil from "/MemberPhotos/MariamKhalil.png";
+import MeiLuangkhot from "/MemberPhotos/MeiLuangkhot.png";
+import MichealBrennan from "/MemberPhotos/MichealBrennan.png";
+import OwenSharpe from "/MemberPhotos/OwenSharpe.png";
+import QuinnCahill from "/MemberPhotos/QuinnCahill.png";
+import RichardZhao from "/MemberPhotos/RichardZhao.png";
+import RohanSunkara from "/MemberPhotos/RohanSunkara.png";
+import SebastianTremblay from "/MemberPhotos/SebastianTremblay.png";
 import SydneySchulz from "/MemberPhotos/SydneySchulz.png";
-import AylaUrquizo from "/MemberPhotos/FraniPendus.png";
 import ZacharyWen from "/MemberPhotos/ZacharyWen.png";
 //import RhiannaDSilva from "/MemberPhotos/RhiannaDSilva.png";
-import VinceSchacknies from "/MemberPhotos/VinceSchacknies.png";
 import AmeliaRogers from "/MemberPhotos/AmeliaRogers.png";
+import AngelaMo from "/MemberPhotos/AngelaMo.png";
 import ArshJafri from "/MemberPhotos/ArshJafri.png";
+import ClaraSantodomingo from "/MemberPhotos/ClaraSantodomingo.png";
+import VinceSchacknies from "/MemberPhotos/VinceSchacknies.png";
+
 import ktplogo from "/MemberPhotos/ktp.png";
 
 export const executiveBoard = [
@@ -47,7 +54,7 @@ export const executiveBoard = [
     link: "https://www.linkedin.com/in/martin-hema/",
   },
   {
-    image: "/MemberPhotos/ktp.png",
+    image: KevinPolackal,
     name: "Kevin Polackal",
     position: "VP of Internal Operations",
     link: "https://www.linkedin.com/in/kevinpolackal/",
@@ -71,7 +78,7 @@ export const executiveBoard = [
     link: "https://www.linkedin.com/in/nicholasrbyrne/",
   },
   {
-    image: "/MemberPhotos/ktp.png",
+    image: AngelaMo,
     name: "Angela Mo",
     position: "VP of Membership",
     link: "https://www.linkedin.com/in/moangela/",
@@ -89,16 +96,16 @@ export const executiveBoard = [
     link: "https://www.linkedin.com/in/calli-colvin-b720b32a8/",
   },
   {
-    image: "/MemberPhotos/ktp.png",
+    image: GayatriKondabathini,
     name: "Gayatri Kondabathini",
     position: "VP of Professional Development",
     link: "https://www.linkedin.com/in/gayatri-kondabathini-731b99280/",
   },
   {
-    image: "/MemberPhotos/ktp.png",
-    name: "Rachel Chen",
+    image: ktplogo,
+    name: "Rich Ferrentino",
     position: "VP of Philanthropy",
-    link: "https://www.linkedin.com/in/racheljiarui/",
+    link: "https://www.linkedin.com/in/richard-ferrentino/",
   },
   {
     image: "/MemberPhotos/ktp.png",
@@ -109,12 +116,8 @@ export const executiveBoard = [
 ];
 export const activeMembers = [
   {
-    image: ktplogo,
+    image: ClaraSantodomingo,
     name: "Clara Santodomingo",
-  },
-  {
-    image: ktplogo,
-    name: "Rich Ferrentino",
   },
   {
     image: KevinCooper,
