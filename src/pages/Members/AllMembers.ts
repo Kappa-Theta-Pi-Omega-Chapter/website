@@ -4,16 +4,14 @@ import GayatriKondabathini from "/MemberPhotos/GayatriKondabathini.png";
 import KevinPolackal from "/MemberPhotos/KevinPolackal.png";
 import LoreleiDuarte from "/MemberPhotos/LoreleiDuarte.png";
 import WilliamAnderson from "/MemberPhotos/WilliamAnderson.png";
-
+import RichFerrentino from "/MemberPhotos/RichFerrentino.png";
 import ArminaParvaresh from "/MemberPhotos/ArminaParvaresh.png";
 import DariusAlu from "/MemberPhotos/DariusAlu.png";
 import EashaPatel from "/MemberPhotos/EashaPatel.png";
 import ElizabethFallat from "/MemberPhotos/ElizabethFallat.png";
 import ErikaKirchbach from "/MemberPhotos/ErikaKirchbach.png";
-import {
-  default as AylaUrquizo,
-  default as FraniPendus,
-} from "/MemberPhotos/FraniPendus.png";
+import FraniPendus from "/MemberPhotos/FraniPendus.png";
+import AylaUrquizo from "/MemberPhotos/AylaUrquizo.png";
 import GraceUecker from "/MemberPhotos/GraceUecker.png";
 import HenryCaldwell from "/MemberPhotos/HenryCaldwell.png";
 import JackDreifus from "/MemberPhotos/JackDreifus.png";
@@ -102,7 +100,7 @@ export const executiveBoard = [
     link: "https://www.linkedin.com/in/gayatri-kondabathini-731b99280/",
   },
   {
-    image: ktplogo,
+    image: RichFerrentino,
     name: "Rich Ferrentino",
     position: "VP of Philanthropy",
     link: "https://www.linkedin.com/in/richard-ferrentino/",
@@ -118,6 +116,10 @@ export const activeMembers = [
   {
     image: ClaraSantodomingo,
     name: "Clara Santodomingo",
+  },
+  {
+    image: ktplogo,
+    name: "Rachel Chen",
   },
   {
     image: KevinCooper,
