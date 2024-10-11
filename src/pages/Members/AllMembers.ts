@@ -4,6 +4,7 @@ import GayatriKondabathini from "/MemberPhotos/GayatriKondabathini.png";
 import KevinPolackal from "/MemberPhotos/KevinPolackal.png";
 import LoreleiDuarte from "/MemberPhotos/LoreleiDuarte.png";
 import WilliamAnderson from "/MemberPhotos/WilliamAnderson.png";
+import AidanNiceberg from "/MemberPhotos/AidanNiceberg.png";
 import RichFerrentino from "/MemberPhotos/RichFerrentino.png";
 import ArminaParvaresh from "/MemberPhotos/ArminaParvaresh.png";
 import DariusAlu from "/MemberPhotos/DariusAlu.png";
@@ -106,7 +107,7 @@ export const executiveBoard = [
     link: "https://www.linkedin.com/in/richard-ferrentino/",
   },
   {
-    image: "/MemberPhotos/ktp.png",
+    image: AidanNiceberg,
     name: "Aidan Niceberg",
     position: "AVP of Technical Development",
     link: "https://www.linkedin.com/in/aidanniceberg/",
