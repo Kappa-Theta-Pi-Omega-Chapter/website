@@ -73,7 +73,7 @@ function Rush() {
         <div className={styles.wrapper}>
           <h2 className={styles.rushTitle}>Interested in rushing KTP?</h2>
           <div className={styles.rushInfo}>
-            Follow us on instagram to stay up to date on rush!
+            Follow us on instagram to stay up to date on rush events!
           </div>
           <a
             target="_blank"
