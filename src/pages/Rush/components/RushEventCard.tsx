@@ -39,7 +39,7 @@ const RushEventCard = ({
         <div className={styles.rushEventSpecificsContainer}>
           <div className={styles.rushEventLocation}>{location}</div>
           <div className={styles.rushEventDate}>
-            {date}, {time}
+            {date && time ? `${date}, ${time}` : ""}
           </div>
         </div>
       </div>

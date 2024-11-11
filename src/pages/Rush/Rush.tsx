@@ -4,59 +4,67 @@ import RushEventCard from "./components/RushEventCard";
 
 function Rush() {
   const events = [
+    // {
+    //   title: "Info Session",
+    //   date: "September 10th",
+    //   location: "TBD",
+    //   time: "8:00 PM",
+    //   description:
+    //     "Come learn about KTP and what we do! Learn about our upcoming events, rush process, and ask questions.",
+    // },
+    // {
+    //   title: "Meet The Brothers BBQ",
+    //   date: "September 11th",
+    //   location: "TBD",
+    //   time: "8:00 PM",
+    //   description:
+    //     "Join us for a BBQ to meet the brothers and learn more about our fraternity!",
+    // },
+    // {
+    //   title: "Resume Workshop",
+    //   date: "September 12th",
+    //   location: "TBD",
+    //   time: "8:00 PM",
+    //   description:
+    //     "Attend a hands-on workshop on resume building and interview skills.",
+    // },
+    // {
+    //   title: "2nd Info Session",
+    //   date: "September 17th",
+    //   location: "TBD",
+    //   time: "8:00 PM",
+    //   description:
+    //     "Learn more about our plans for the semester, national alumni network, and the core pillars of our fraternity.",
+    // },
+    // {
+    //   title: "Co-op Panel/Networking",
+    //   date: "September 18th",
+    //   location: "TBD",
+    //   time: "8:00 PM",
+    //   description:
+    //     "Attend our panel of brothers who have gone through the co-op process, hear about their experiences in industry, and network with them.",
+    // },
+    // {
+    //   title: "APPLICATIONS DUE",
+    //   date: "September 19th",
+    //   location: "",
+    //   time: "6:00 PM",
+    //   description: "Formally submit your application to rush KTP.",
+    // },
+    // {
+    //   title: "Interview I - Invite Only",
+    //   date: "September 21st",
+    //   location: "TBD",
+    //   time: "Afternoon",
+    //   description: "First round of interviews.",
+    // },
     {
-      title: "Info Session",
-      date: "September 10th",
-      location: "TBD",
-      time: "8:00 PM",
-      description:
-        "Come learn about KTP and what we do! Learn about our upcoming events, rush process, and ask questions.",
-    },
-    {
-      title: "Meet The Brothers BBQ",
-      date: "September 11th",
-      location: "TBD",
-      time: "8:00 PM",
-      description:
-        "Join us for a BBQ to meet the brothers and learn more about our fraternity!",
-    },
-    {
-      title: "Resume Workshop",
-      date: "September 12th",
-      location: "TBD",
-      time: "8:00 PM",
-      description:
-        "Attend a hands-on workshop on resume building and interview skills.",
-    },
-    {
-      title: "2nd Info Session",
-      date: "September 17th",
-      location: "TBD",
-      time: "8:00 PM",
-      description:
-        "Learn more about our plans for the semester, national alumni network, and the core pillars of our fraternity.",
-    },
-    {
-      title: "Co-op Panel/Networking",
-      date: "September 18th",
-      location: "TBD",
-      time: "8:00 PM",
-      description:
-        "Attend our panel of brothers who have gone through the co-op process, hear about their experiences in industry, and network with them.",
-    },
-    {
-      title: "APPLICATIONS DUE",
-      date: "September 19th",
+      title: "Fall rush over! Spring rush coming soon!",
+      date: "",
       location: "",
-      time: "6:00 PM",
-      description: "Formally submit your application to rush KTP.",
-    },
-    {
-      title: "Interview I - Invite Only",
-      date: "September 21st",
-      location: "TBD",
-      time: "Afternoon",
-      description: "First round of interviews.",
+      time: "",
+      description:
+        "Kappa Theta Pi has concluded its Fall rush events and admitted it's first ever pledge class. Stay tuned for Spring rush events!",
     },
   ];
   return (
@@ -69,11 +77,11 @@ function Rush() {
           </div>
           <a
             target="_blank"
-            href="https://instagram.com/ktpboston"
+            href="https://instagram.com/ktpneu"
             className={styles.rushInfoItem}
           >
             <FaInstagram className={styles.rushInfoIcon} />
-            ktpboston
+            ktpneu
           </a>
         </div>
       </section>

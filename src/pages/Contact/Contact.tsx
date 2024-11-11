@@ -40,12 +40,12 @@ function Contact() {
           </div>
           <div className={styles.contactInfoGroup}>
             <a
-              href="https://instagram.com/ktpboston"
+              href="https://instagram.com/ktpneu"
               target="_blank"
               className={styles.contactInfoItem}
             >
               <FaInstagram className={styles.contactInfoIcon} />
-              <span className={styles.contactInfoContent}>ktpboston</span>
+              <span className={styles.contactInfoContent}>ktpneu</span>
             </a>
           </div>
           <div className={styles.contactInfoGroup}>
