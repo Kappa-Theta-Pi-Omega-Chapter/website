@@ -1,4 +1,4 @@
-import { Routes } from "react-router";
+import { Navigate, Routes } from "react-router";
 import { BrowserRouter, Route } from "react-router-dom";
 import NavBar from "./components/NavBar/NavBar";
 import { ROUTES } from "./constants";
