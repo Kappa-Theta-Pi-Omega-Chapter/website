@@ -19,7 +19,7 @@ function NavBar() {
           <div className={styles.descriptionContainer}>
             <div className={styles.descriptionTextPrimary}>KAPPA THETA PI</div>
             <div className={styles.descriptionTextSecondary}>
-              OMEGA COLONY • NORTHEASTERN
+              OMEGA CHAPTER • NORTHEASTERN
             </div>
           </div>
         </div>

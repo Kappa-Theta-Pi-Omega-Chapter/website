@@ -50,7 +50,7 @@ function Contact() {
           </div>
           <div className={styles.contactInfoGroup}>
             <a
-              href="https://github.com/ktpNortheastern"
+              href="https://github.com/Kappa-Theta-Pi-Omega-Chapter"
               target="_blank"
               className={styles.contactInfoItem}
             >
