@@ -1,8 +1,8 @@
-const HOME = "/";
-const ABOUT_US = "/about";
-const RUSH = "/rush";
-const MEMBERS = "/members";
-const CONTACT_US = "/contact";
+const HOME = "/website/";
+const ABOUT_US = "/website/about";
+const RUSH = "/website/rush";
+const MEMBERS = "/website/members";
+const CONTACT_US = "/website/contact";
 
 export const ROUTES = {
   HOME,
@@ -13,8 +13,8 @@ export const ROUTES = {
 };
 
 export const NAVBAR_ROUTES = [
-    { route: ROUTES.ABOUT_US, text: "About Us" },
-    { route: ROUTES.RUSH, text: "Rush" },
-    { route: ROUTES.MEMBERS, text: "Members" },
-    { route: ROUTES.CONTACT_US, text: "Contact" },
+  { route: ROUTES.ABOUT_US, text: "About Us" },
+  { route: ROUTES.RUSH, text: "Rush" },
+  { route: ROUTES.MEMBERS, text: "Members" },
+  { route: ROUTES.CONTACT_US, text: "Contact" },
 ];
