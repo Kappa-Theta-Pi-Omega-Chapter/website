@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "author": "William Anderson",
+  "homepage": "https://kappa-theta-pi-omega-chapter.github.io/website/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
