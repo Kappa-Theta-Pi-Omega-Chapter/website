@@ -1,8 +1,8 @@
-const HOME = "/website/";
-const ABOUT_US = "/website/about";
-const RUSH = "/website/rush";
-const MEMBERS = "/website/members";
-const CONTACT_US = "/website/contact";
+const HOME = "/";
+const ABOUT_US = "/about";
+const RUSH = "/rush";
+const MEMBERS = "/members";
+const CONTACT_US = "/contact";
 
 export const ROUTES = {
   HOME,
