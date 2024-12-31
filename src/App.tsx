@@ -24,6 +24,7 @@ function App() {
         <Route path={ROUTES.RUSH} element={<Rush />} />
         <Route path={ROUTES.ABOUT_US} element={<About />} />
       </Routes>
+      <Route path="*" element={<Home />} />
     </BrowserRouter>
   );
 }
