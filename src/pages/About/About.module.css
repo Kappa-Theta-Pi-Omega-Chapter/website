@@ -70,6 +70,18 @@
   padding: 3px;
 }
 
+.Image {
+  width: 65vw;
+  border-radius: 7px;
+  contain: cover;
+  filter: grayscale(80%);
+  transition: all 0.25s ease-in-out;
+}
+
+.Image:hover {
+  filter: grayscale(0%);
+}
+
 /* small screens */
 @media (max-width: 768px) {
   .header {

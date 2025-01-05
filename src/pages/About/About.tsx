@@ -67,12 +67,28 @@ function About() {
         </div>
       </section>
       <section className={styles.section}>
+        <figure>
+          <img src="first-pc.png" alt="First PC" className={styles.Image} />
+          <figcaption style={{ marginTop: "10px" }}>
+            Fall '24 Pledge Class
+          </figcaption>
+        </figure>
+      </section>
+      <section className={styles.section}>
         <h2>Pillars</h2>
         <div className={styles.pillarsWrapper}>
           {pillars.map((p) => (
             <PillarCard key={p.title} title={p.title} content={p.content} />
           ))}
         </div>
+      </section>
+      <section className={styles.section}>
+        <figure>
+          <img src="group-pic.png" alt="Initiation" className={styles.Image} />
+          <figcaption style={{ marginTop: "10px" }}>
+            Initiation Ceremony
+          </figcaption>
+        </figure>
       </section>
       {/* <section className={styles.section}>
         <h2>President's Welcome</h2>
