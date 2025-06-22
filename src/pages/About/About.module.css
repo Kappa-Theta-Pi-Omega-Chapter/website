@@ -41,13 +41,9 @@
   white-space: nowrap;
   overflow: hidden;
   border-right: 2px solid #22c55e;
-
-  /* NEW */
   display: inline-block;
   text-align: center;
   margin: 0 auto;
-
-  /* Critical fix */
   width: fit-content;
   max-width: 100%;
   animation: typing 3s steps(30, end) forwards, blink 0.75s step-end infinite;
@@ -73,40 +69,6 @@
   50% {
     border-color: #22c55e;
   }
-}
-
-.bannerOverlay {
-  position: relative;
-  z-index: 2;
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
-
-.bannerTitle {
-  color: #fff;
-  font-size: 3rem;
-  font-weight: 800;
-  letter-spacing: 2px;
-  text-shadow: 0 4px 24px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.15);
-  background: rgba(0, 0, 0, 0.25);
-  padding: 1rem 2.5rem;
-  border-radius: 2rem;
-}
-
-.bannerOverlayBottom {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  z-index: 2;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  padding-bottom: 2.5rem;
-  pointer-events: none;
 }
 
 .header {
@@ -214,51 +176,8 @@
   border-left: 3px solid var(--secondary-green);
 }
 
-.welcomeContent {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  max-width: 75rem;
-  margin: auto;
-  align-items: flex-start;
-  flex-direction: row;
-}
-
-.presidentImage {
-  width: 100%;
-  max-width: 30rem;
-  margin: 0 auto;
-}
-
-.presidentText {
-  flex: 1;
-  text-align: left;
-  padding: 3px;
-}
-
-.Image {
-  width: 65vw;
-  max-width: 900px;
-  border-radius: 1.5rem;
-  contain: cover;
-  filter: grayscale(60%) brightness(1.02);
-  transition: all 0.25s ease-in-out;
-  box-shadow: none;
-  border: 2px solid #e6ecf5;
-}
-
-.Image:hover {
-  filter: grayscale(0%) brightness(1.05);
-  border: 2px solid var(--secondary-green);
-}
-
 /* small screens */
 @media (max-width: 900px) {
-  .bannerTitle {
-    font-size: 2.1rem;
-    padding: 0.7rem 1.2rem;
-  }
-
   .section {
     padding: 2rem 0.5rem;
   }
@@ -267,11 +186,6 @@
 @media (max-width: 768px) {
   .header {
     margin: 0 0 1rem 2rem;
-  }
-
-  .welcomeContent {
-    flex-direction: column;
-    align-items: flex-start;
   }
 
   .bannerSection {
