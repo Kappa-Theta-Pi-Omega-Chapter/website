@@ -21,7 +21,7 @@ function NavBarLinks({highlightActive, onClick}: NavBarLinksProps) {
 
   return NAVBAR_ROUTES.map((link) => (
     <NavLink key={link.text} to={link.route} className={generateClassNames(link.route)} onClick={onClick}>
-        {link.text.toUpperCase()}
+        {link.text}
     </NavLink>));
 }
 
