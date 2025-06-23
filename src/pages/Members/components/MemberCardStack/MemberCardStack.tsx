@@ -17,6 +17,7 @@ function MemberCardStack({ title, members }: MemberCardStackProps) {
             image={m.image}
             name={m.name}
             position={m.position}
+            class={m.class}
           />
         ))}
       </div>
