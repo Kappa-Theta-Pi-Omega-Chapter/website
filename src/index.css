@@ -36,10 +36,6 @@ h6 {
   color: var(--primary-dark-blue);
 }
 
-.content-wrapper {
-  margin: 4rem 4rem 2rem 4rem;
-}
-
 /* small screens */
 @media (max-width: 768px) {
   .content-wrapper {
