@@ -2,6 +2,7 @@ import classNames from "classnames";
 import styles from "./About.module.css";
 import KeyValueDisplay from "./components/KeyValueDisplay/KeyValueDisplay";
 import PillarCard from "./components/PillarCard/PillarCard";
+import { networkLogos } from "./networkLogos.ts";
 
 function About() {
   const bullets = [
@@ -47,11 +48,24 @@ function About() {
       <section className={styles.section}>
         <h2>We are Kappa Theta Pi, Omega Chapter</h2>
         <p className={styles.typingText}>
-        {/* <p style={{ fontSize: '1.3rem', color: '#1a237e', fontWeight: '600', marginBottom: '1rem' }}> */}
+          {/* <p style={{ fontSize: '1.3rem', color: '#1a237e', fontWeight: '600', marginBottom: '1rem' }}> */}
           The first professional technology fraternity in the country
         </p>
       </section>
       {/* Main Content */}
+      <section className={styles.section}>
+        <h2>Network</h2>
+        <div className={styles.networkLogosWrapper}>
+          {networkLogos.map((logo: string) => (
+            <img
+              key={logo}
+              src={`/NetworkLogos/${logo}`}
+              alt={logo.replace(/\.[^/.]+$/, "")}
+              className={styles.networkLogo}
+            />
+          ))}
+        </div>
+      </section>
       <section className={classNames(styles.section, styles.historySection)}>
         <h2>History</h2>
         <div className={styles.historyContent}>
