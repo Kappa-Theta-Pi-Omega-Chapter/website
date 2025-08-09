@@ -197,7 +197,7 @@ export const activeMembers = [
     image: KevinCooper,
     name: "Kevin Cooper",
     link: "https://www.linkedin.com/in/cooperke/",
-    class: "founding",
+    class: "alpha",
   },
   {
     image: JackDreifus,

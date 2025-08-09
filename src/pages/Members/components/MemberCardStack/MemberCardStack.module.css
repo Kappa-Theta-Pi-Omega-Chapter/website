@@ -10,9 +10,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 1rem;
+  margin: 1rem 1.5rem;
 }
 
 .cardStack > * {
-  margin: 18px;
+  margin: 14px;
 }
