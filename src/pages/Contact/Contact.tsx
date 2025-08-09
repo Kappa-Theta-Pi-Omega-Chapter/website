@@ -18,49 +18,53 @@ function Contact() {
   ];
 
   return (
-    <>
-      <div className={styles.wrapper}>
-        <div className={styles.contactCardWrapper}>
-          {contactCards.map((c) => (
-            <ContactCard title={c.title} content={c.content} />
+    <div className={styles.contentWrapper}>
+      <section className={styles.section}>
+        <h2 className={styles.heading}>Contact Us</h2>
+        <p className={styles.intro}>
+          Reach out for questions, collaborations, or to connect with our chapter!
+        </p>
+      </section>
+      {/* <section className={styles.section}>
+        <div className={styles.cardGrid}>
+          {contactCards.map((c, i) => (
+            <ContactCard key={i} title={c.title} content={c.content} />
           ))}
+        </div> 
+      </section>*/}
+      <section className={styles.section}>
+        <h3 className={styles.infoHeading}>Connect with us</h3>
+        <div className={styles.contactInfoGrid}>
+          <a
+            href="mailto:ktp.northeastern@gmail.com"
+            className={styles.contactInfoItem}
+          >
+            <MdEmail className={styles.contactInfoIcon} />
+            <span className={styles.contactInfoContent}>
+              ktp.northeastern@gmail.com
+            </span>
+          </a>
+          <a
+            href="https://instagram.com/ktpneu"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.contactInfoItem}
+          >
+            <FaInstagram className={styles.contactInfoIcon} />
+            <span className={styles.contactInfoContent}>ktpneu</span>
+          </a>
+          <a
+            href="https://github.com/Kappa-Theta-Pi-Omega-Chapter"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.contactInfoItem}
+          >
+            <FaGithub className={styles.contactInfoIcon} />
+            <span className={styles.contactInfoContent}>ktpNortheastern</span>
+          </a>
         </div>
-        <div className={styles.contactInfoWrapper}>
-          <div className={styles.contactInfoGroup}>
-            {" "}
-            <a
-              href="mailto:ktp.northeastern@gmail.com"
-              className={styles.contactInfoItem}
-            >
-              <MdEmail className={styles.contactInfoIcon} />
-              <span className={styles.contactInfoContent}>
-                ktp.northeastern@gmail.com
-              </span>
-            </a>
-          </div>
-          <div className={styles.contactInfoGroup}>
-            <a
-              href="https://instagram.com/ktpneu"
-              target="_blank"
-              className={styles.contactInfoItem}
-            >
-              <FaInstagram className={styles.contactInfoIcon} />
-              <span className={styles.contactInfoContent}>ktpneu</span>
-            </a>
-          </div>
-          <div className={styles.contactInfoGroup}>
-            <a
-              href="https://github.com/Kappa-Theta-Pi-Omega-Chapter"
-              target="_blank"
-              className={styles.contactInfoItem}
-            >
-              <FaGithub className={styles.contactInfoIcon} />
-              <span className={styles.contactInfoContent}>ktpNortheastern</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </>
+      </section>
+    </div>
   );
 }
 

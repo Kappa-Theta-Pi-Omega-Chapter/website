@@ -36,6 +36,10 @@ h6 {
   color: var(--primary-dark-blue);
 }
 
+.content-wrapper {
+  padding-top: 64px; /* matches navbar height */
+}
+
 /* small screens */
 @media (max-width: 768px) {
   .content-wrapper {
