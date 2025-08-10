@@ -1,4 +1,4 @@
-import { FaInstagram, FaRegQuestionCircle } from "react-icons/fa";
+import { FaRegQuestionCircle } from "react-icons/fa";
 import styles from "./Rush.module.css";
 
 function Rush() {
