@@ -28,7 +28,7 @@ function Contact() {
                 organization, upcoming events, or how to get involved, don't
                 hesitate to contact us. Our team is ready to provide all the
                 details you need to make an informed choice about joining us. Just
-                send us an email at <a href="mailto:ktp.northeastern@gmail.com" style={{ color: "#2b6cb0", textDecoration: "underline" }}>
+                send us an email at <a href="mailto:ktp.northeastern@gmail.com" className={styles.hyperlink}>
                   ktp.northeastern@gmail.com</a>, and we'll respond
                 promptly. We can't wait to connect with you and share the amazing
                 experiences our fraternity offers.
@@ -46,7 +46,7 @@ function Contact() {
                 sponsorship, or other business-related inquiries, we'd love to hear
                 from you. We're excited to discuss how we can work together to
                 reach our shared goals and create a lasting impact. Please feel
-                free to contact us at <a href="mailto:ktp.northeastern@gmail.com" style={{ color: "#2b6cb0", textDecoration: "underline" }}>
+                free to contact us at <a href="mailto:ktp.northeastern@gmail.com" className={styles.hyperlink}>
                   ktp.northeastern@gmail.com</a>, and our
                 dedicated team will be thrilled to connect with you. Let's embark
                 on a journey of growth and success together.
