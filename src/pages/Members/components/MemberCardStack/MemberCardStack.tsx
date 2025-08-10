@@ -13,10 +13,12 @@ function MemberCardStack({ title, members }: MemberCardStackProps) {
       <div className={styles.cardStack}>
         {members.map((m) => (
           <MemberCard
+            key={m.name}
             link={m.link}
             image={m.image}
             name={m.name}
             position={m.position}
+            class={m.class}
           />
         ))}
       </div>

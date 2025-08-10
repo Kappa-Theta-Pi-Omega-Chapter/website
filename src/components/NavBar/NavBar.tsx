@@ -12,20 +12,19 @@ function NavBar() {
   return (
     <>
       <div className={styles.toolbar}>
-        <div className={styles.headingContainer}>
+        <div className={styles.leftSection}>
           <NavLink to={ROUTES.HOME} style={{ textDecoration: "none" }}>
             <div className={styles.headingText}>ΚΘΠ</div>
           </NavLink>
-          <div className={styles.descriptionContainer}>
-            <div className={styles.descriptionTextPrimary}>KAPPA THETA PI</div>
-            <div className={styles.descriptionTextSecondary}>
-              OMEGA CHAPTER • NORTHEASTERN
-            </div>
+          <div className={styles.chapterText}>OMEGA CHAPTER</div>
+        </div>
+        <div className={styles.centerSection}>
+          <div className={styles.linkWrapper}>
+            <NavBarLinks onClick={() => setMenuOpen(false)} highlightActive />
           </div>
         </div>
-
-        <div className={styles.linkWrapper}>
-          <NavBarLinks onClick={() => setMenuOpen(false)} highlightActive />
+        <div className={styles.rightSection}>
+          {/* this will be used for our website later */}
         </div>
         <GiHamburgerMenu
           className={styles.menuIcon}

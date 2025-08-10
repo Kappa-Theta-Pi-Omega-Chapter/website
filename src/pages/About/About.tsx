@@ -2,6 +2,7 @@ import classNames from "classnames";
 import styles from "./About.module.css";
 import KeyValueDisplay from "./components/KeyValueDisplay/KeyValueDisplay";
 import PillarCard from "./components/PillarCard/PillarCard";
+import { networkLogos } from "./NetworkLogos";
 
 function About() {
   const bullets = [
@@ -40,6 +41,31 @@ function About() {
 
   return (
     <div className={styles.contentWrapper}>
+      {/* Banner Section */}
+      <section className={styles.bannerSection}>
+        <img src="first-pc.png" alt="First PC - Fall '24 Pledge Class" className={styles.bannerImage} />
+      </section>
+      <section className={styles.section}>
+        <h2>We are Kappa Theta Pi, Omega Chapter</h2>
+        <p className={styles.typingText}>
+          {/* <p style={{ fontSize: '1.3rem', color: '#1a237e', fontWeight: '600', marginBottom: '1rem' }}> */}
+          The first professional technology fraternity in the country
+        </p>
+      </section>
+      {/* Main Content */}
+      <section className={styles.section}>
+        <h2>Network</h2>
+        <div className={styles.networkLogosWrapper}>
+          {networkLogos.map((logo: string) => (
+            <img
+              key={logo}
+              src={`/NetworkLogos/${logo}`}
+              alt={logo.replace(/\.[^/.]+$/, "")}
+              className={styles.networkLogo}
+            />
+          ))}
+        </div>
+      </section>
       <section className={classNames(styles.section, styles.historySection)}>
         <h2>History</h2>
         <div className={styles.historyContent}>
@@ -67,14 +93,6 @@ function About() {
         </div>
       </section>
       <section className={styles.section}>
-        <figure>
-          <img src="first-pc.png" alt="First PC" className={styles.Image} />
-          <figcaption style={{ marginTop: "10px" }}>
-            Fall '24 Pledge Class
-          </figcaption>
-        </figure>
-      </section>
-      <section className={styles.section}>
         <h2>Pillars</h2>
         <div className={styles.pillarsWrapper}>
           {pillars.map((p) => (
@@ -82,34 +100,13 @@ function About() {
           ))}
         </div>
       </section>
-      <section className={styles.section}>
+      {/* <section className={styles.section}>
         <figure>
           <img src="group-pic.png" alt="Initiation" className={styles.Image} />
           <figcaption style={{ marginTop: "10px" }}>
             Initiation Ceremony
           </figcaption>
         </figure>
-      </section>
-      {/* <section className={styles.section}>
-        <h2>President's Welcome</h2>
-        <div className={styles.welcomeContent}>
-          <img
-            src={KTPlogo}
-            alt="President Image"
-            className={styles.presidentImage}
-          />
-          <div className={styles.presidentText}>
-            <p>
-              Welcome to Kappa Theta Pi! We are thrilled to have you join our
-              community. Our fraternity is dedicated to fostering academic and
-              professional growth, providing a strong network of support, and
-              creating lasting friendships. We believe in the power of
-              technology to transform the world, and we are excited to see what
-              you will contribute to our organization and beyond. Thank you for
-              being a part of our journey.
-            </p>
-          </div>
-        </div>
       </section> */}
     </div>
   );

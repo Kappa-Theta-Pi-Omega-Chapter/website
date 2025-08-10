@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: row;
   gap: 4rem;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .contactInfoWrapper {
@@ -50,21 +50,219 @@
   color: var(--primary-dark-blue);
 }
 
-@media (max-width: 768px) {
-  .wrapper {
-    padding: 1rem;
+.contentWrapper {
+  position: relative;
+  background: #f8fafc;
+  min-height: 100vh;
+  overflow-x: hidden;
+  justify-items: center;
+}
+
+.contentWrapper::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:
+    radial-gradient(circle at 15% 15%, rgba(100, 255, 218, 0.2), transparent 30%),
+    radial-gradient(circle at 85% 25%, rgba(67, 181, 255, 0.3), transparent 30%),
+    radial-gradient(circle at 50% 60%, rgba(139, 233, 134, 0.2), transparent 35%),
+    radial-gradient(circle at 20% 85%, rgba(67, 181, 255, 0.25), transparent 40%),
+    radial-gradient(circle at 80% 90%, rgba(100, 255, 218, 0.25), transparent 50%);
+  filter: blur(100px);
+  transform: translateZ(0);
+  z-index: 0;
+}
+
+.section {
+  position: relative;
+  z-index: 1;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 2rem 1rem 2rem;
+  background: none;
+  border-bottom: 2px solid var(--secondary-green);
+  border-radius: 0;
+  text-align: center;
+}
+
+.heading {
+  font-size: 2.3rem;
+  font-weight: 800;
+  color: #1a237e;
+  margin-bottom: 1rem;
+}
+
+.intro {
+  font-size: 1.15rem;
+  color: #3d5a80;
+  margin-bottom: 1.5rem;
+}
+
+.cardGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contactCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.cardImage {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.cardContent {
+  flex: 1;
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.cardText {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* ContactCard styling similar to PillarCard */
+.components_ContactCard_contactCardContent__ {
+  text-align: left;
+  color: #1a237e;
+  font-size: 1.13rem;
+  line-height: 1.6;
+}
+
+.components_ContactCard_display__ {
+  border-left: 3px solid var(--primary-blue);
+  padding: 2rem 2rem;
+  min-width: 18rem;
+  max-width: 50rem;
+  flex: 1;
+  margin-bottom: 1.5rem;
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
+  transition: border-color 0.2s;
+}
+
+.components_ContactCard_display__:hover {
+  border-left: 3px solid var(--secondary-green);
+}
+
+/* Contact Info */
+.infoHeading {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2b6cb0;
+  margin-bottom: 1.5rem;
+}
+
+.contactInfoGrid {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contactInfoItem {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1.1rem;
+  color: #2d3748;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: background 0.2s, color 0.2s;
+  background: #fff;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+.contactInfoItem:hover {
+  background: #e2e8f0;
+  color: #2b6cb0;
+}
+
+.contactInfoIcon {
+  font-size: 2rem;
+  color: #2b6cb0;
+  transition: color 0.2s;
+}
+
+.contactInfoItem:hover .contactInfoIcon {
+  color: #3182ce;
+}
+
+.contactInfoContent {
+  font-weight: 500;
+}
+
+.hyperlink {
+  color: #2b6cb0;
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .section {
+    padding: 2rem 0.5rem;
   }
 
-  .contactCardWrapper {
+  .cardGrid {
     flex-direction: column;
     gap: 1rem;
   }
 
-  .contactInfoWrapper {
-    margin: 3rem 2rem 1rem 2rem;
+  .contactInfoGrid {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 1.7rem;
   }
 
-  .contactInfoContent {
-    display: none;
+  .section {
+    padding: 1.2rem 1rem;
+  }
+}
+
+@media (max-width: 700px) {
+
+  .contactCard,
+  .contactCardReverse {
+    flex-direction: column !important;
+    align-items: stretch;
+    text-align: left;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .cardImage {
+    order: 2;
+    max-width: 100%;
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  .cardContent {
+    order: 1;
+    width: 100%;
   }
 }

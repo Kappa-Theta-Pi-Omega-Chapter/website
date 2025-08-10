@@ -5,7 +5,6 @@ import { ROUTES } from "./constants";
 import "./index.css";
 import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
-import Home from "./pages/Home/Home";
 import Members from "./pages/Members/Members";
 import Rush from "./pages/Rush/Rush";
 
@@ -15,15 +14,13 @@ function App() {
       <NavBar />
       <div className="content-wrapper">
         <Routes>
-          <Route path={ROUTES.HOME} element={<Home />} />
+          <Route path={ROUTES.HOME} element={<About />} />
           <Route path={ROUTES.MEMBERS} element={<Members />} />
           <Route path={ROUTES.CONTACT_US} element={<Contact />} />
+          <Route path={ROUTES.RUSH} element={<Rush />} />
+          <Route path={ROUTES.ABOUT_US} element={<About />} />
         </Routes>
       </div>
-      <Routes>
-        <Route path={ROUTES.RUSH} element={<Rush />} />
-        <Route path={ROUTES.ABOUT_US} element={<About />} />
-      </Routes>
     </BrowserRouter>
   );
 }
