@@ -2,7 +2,7 @@ import classNames from "classnames";
 import styles from "./About.module.css";
 import KeyValueDisplay from "./components/KeyValueDisplay/KeyValueDisplay";
 import PillarCard from "./components/PillarCard/PillarCard";
-import { networkLogos } from "./temp";
+import { networkLogos } from "./NetworkLogos";
 
 function About() {
   const bullets = [
