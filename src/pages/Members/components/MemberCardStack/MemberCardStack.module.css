@@ -1,5 +1,5 @@
 .wrapper {
-  margin-top: 4rem;
+  margin: 4rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,26 +12,33 @@
 .cardStack {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  margin: 1rem 1.5rem;
+  justify-content: center; 
+  margin: 1rem 2rem;
+  gap: 30px 10px; 
+  max-width: 100%;
 }
 
-.cardStack>* {
-  margin: 14px;
+.cardStack > * {
+  width: 180px;
+  flex-shrink: 0;
+  margin: 0;
 }
 
 @media (max-width: 900px) {
-  .cardStack>* {
-    flex: 0 1 calc(33.333% - 0.7rem);
+  .cardStack {
+    gap: 30px 12px;
+  }
+  .cardStack > * {
+    width: 200px; 
   }
 }
 
-@media (max-width: 780px) {
-  .cardStack>* {
-    flex: 0 1 calc(33.333% - 0.4rem);
+@media (max-width: 600px) {
+  .cardStack {
+    gap: 30px 10px;
+    margin: 1rem 0;
   }
-
-  .wrapper {
-    margin-top: 2rem;
+  .cardStack > * {
+    width: calc(33.333% - 7px); 
   }
 }

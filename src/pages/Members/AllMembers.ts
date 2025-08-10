@@ -41,6 +41,26 @@ import AmeliaRogers from "/MemberPhotos/AmeliaRogers.png";
 import ArshJafri from "/MemberPhotos/ArshJafri.png";
 import VinceSchacknies from "/MemberPhotos/VinceSchacknies.png";
 import ktplogo from "/MemberPhotos/ktp.png";
+import AlexWeinstein from "/MemberPhotos/AlexWeinstein.png";
+import HaileySalce from "/MemberPhotos/HaileySalce.jpg";
+import EleanorMeltzer from "/MemberPhotos/EleanorMeltzer.png";
+import RowenLatif from "/MemberPhotos/RowenLatif.jpeg";
+import LilyHartley from "/MemberPhotos/LilyHartley.png";
+import WilliamAntsey from "/MemberPhotos/WilliamAntsey.png";
+import AnirudhGopalan from "/MemberPhotos/AnirudhGopalan.jpeg";
+import PrabhavGupta from "/MemberPhotos/PrabhavGupta.jpeg";
+import MadalynnNenninger from "/MemberPhotos/MaddyNenninger.jpeg";
+import MimoOlowu from "/MemberPhotos/MimoOlowu.png";
+import MadelinePeskens from "/MemberPhotos/MadelinePeskens.jpeg";
+import AdheepRampure from "/MemberPhotos/AdheepRampure.jpeg";
+import AndrewRettig from "/MemberPhotos/AndrewRettig.jpeg";
+import JillianRyan from "/MemberPhotos/JillianRyan.jpeg";
+import PeterSavinelli from "/MemberPhotos/PeterSavinelli.png";
+import PreethSomanchi from "/MemberPhotos/PreethSomanchi.jpg";
+import WilliamTurner from "/MemberPhotos/WilliamTurner.png";
+import SebastienDeVerbigierDeSaintPaul from "/MemberPhotos/SebastienDeVerbigierDeSaintPaul.png";
+import JhonyelGalvis from "/MemberPhotos/JhonyelGalvis.png";
+
 
 // greek letter mapping for classes
 export const classToGreekLetter: { [key: string]: string } = {
@@ -157,6 +177,12 @@ export const activeMembers = [
     class: "founding",
   },
   {
+    image: WilliamAntsey,
+    name: "William Anstey",
+    link: "https://www.linkedin.com/in/william-anstey-84237a21a/",
+    class: "beta",
+  },
+  {
     image: JakeBernhard,
     name: "Jake Bernhard",
     link: "https://www.linkedin.com/in/jakebernhard/",
@@ -167,12 +193,6 @@ export const activeMembers = [
     name: "Micheal Brennan",
     link: "https://www.linkedin.com/in/michael-brennan-67a13b2b1/",
     class: "alpha",
-  },
-  {
-    image: NickByrne,
-    name: "Nick Byrne",
-    link: "https://www.linkedin.com/in/nicholasrbyrne/",
-    class: "founding",
   },
   {
     image: QuinnCahill,
@@ -193,6 +213,12 @@ export const activeMembers = [
     class: "alpha",
   },
   {
+    image: SebastienDeVerbigierDeSaintPaul,
+    name: "Sebastien De Verbigier De Saint Paul",
+    link: "https://www.linkedin.com/in/sebastien-de-verbigier/",
+    class: "beta",
+  },
+  {
     image: JackDreifus,
     name: "Jack Dreifus",
     link: "https://www.linkedin.com/in/jack-dreifus/",
@@ -209,6 +235,30 @@ export const activeMembers = [
     name: "Elizabeth Fallat",
     link: "https://www.linkedin.com/in/elizabeth-fallat-551aba275/",
     class: "alpha",
+  },
+  {
+    image: JhonyelGalvis,
+    name: "Jhonyel Galvis",
+    link: "https://www.linkedin.com/in/jhonyel-galvis/", 
+    class: "beta",
+  },
+  {
+    image: AnirudhGopalan,
+    name: "Anirudh Gopalan",
+    link: "https://www.linkedin.com/in/anirudhgopalan/",
+    class: "beta",
+  },
+  { 
+    image: PrabhavGupta,
+    name: "Prabhav Gupta",
+    link: "https://www.linkedin.com/in/prabhavkgupta/",
+    class: "beta",
+  },
+  {
+    image: LilyHartley,
+    name: "Lily Hartley",
+    link: "https://www.linkedin.com/in/lhartley27/",
+    class: "beta",
   },
   {
     image: ArshJafri,
@@ -235,10 +285,22 @@ export const activeMembers = [
     class: "founding",
   },
   {
+    image: RowenLatif,
+    name: "Rowen Latif",
+    link: "https://www.linkedin.com/in/rowen-latif/",
+    class: "beta",
+  },
+  {
     image: MeiLuangkhot,
     name: "Mei Luangkhot",
     link: "https://www.linkedin.com/in/mei-luangkhot/",
     class: "alpha",
+  },
+  {
+    image: EleanorMeltzer,
+    name: "Eleanor Meltzer",
+    link: "https://www.linkedin.com/in/eleanor-meltzer/",
+    class: "beta",
   },
   {
     image: AngelaMo,
@@ -247,10 +309,16 @@ export const activeMembers = [
     class: "founding",
   },
   {
-    image: AidanNiceberg,
-    name: "Aidan Niceberg",
-    link: "https://www.linkedin.com/in/aidanniceberg/",
-    class: "founding",
+    image: MadalynnNenninger,
+    name: "Madalynn Nenninger",
+    link: "https://www.linkedin.com/in/madalynn-nenninger-945553236/",
+    class: "beta",
+  },
+  {
+    image: MimoOlowu,
+    name: "Mimo Olowu",
+    link: "https://www.linkedin.com/in/shalom-mimo-olowu-8809502b5/",
+    class: "beta",
   },
   {
     image: AlexandraPaul,
@@ -271,6 +339,12 @@ export const activeMembers = [
     class: "alpha",
   },
   {
+    image: MadelinePeskens,
+    name: "Madeline Peskens",
+    link: "https://www.linkedin.com/in/madelinepeskens/",
+    class: "beta",
+  },
+  {
     image: KevinPolackal,
     name: "Kevin Polackal",
     link: "https://www.linkedin.com/in/kevinpolackal/",
@@ -283,16 +357,52 @@ export const activeMembers = [
     class: "founding",
   },
   {
+    image: AdheepRampure,
+    name: "Adheep Rampure",
+    link: "https://www.linkedin.com/in/adheeprampure/",
+    class: "beta",
+  },
+  {
+    image: AndrewRettig,
+    name: "Andrew Rettig",
+    link: "https://www.linkedin.com/in/rettig-andrew/",
+    class: "beta",
+  },
+  {
     image: AmeliaRogers,
     name: "Amelia Rogers",
     link: "https://www.linkedin.com/in/amelia-rogers-nu/",
     class: "alpha",
   },
   {
+    image: JillianRyan,
+    name: "Jillian Ryan",
+    link: "https://www.linkedin.com/in/jillianryann/",
+    class: "beta",
+  },
+  { 
+    image: HaileySalce,
+    name: "Hailey Salce",
+    link: "https://www.linkedin.com/in/hailey-salce/",
+    class: "beta",
+  },
+  {
+    image: PeterSavinelli,
+    name: "Peter Savinelli",
+    link: "https://www.linkedin.com/in/peter-savinelli/",
+    class: "beta",
+  },
+  {
     image: OwenSharpe,
     name: "Owen Sharpe",
     link: "https://www.linkedin.com/in/owen-sharpe-92258b260/",
     class: "alpha",
+  },
+  {
+    image: PreethSomanchi,
+    name: "Preeth Somanchi",
+    link: "https://www.linkedin.com/in/preeth-somanchi-4299a511b/",
+    class: "beta",
   },
   {
     image: ClaraSantodomingo,
@@ -313,16 +423,22 @@ export const activeMembers = [
     class: "alpha",
   },
   {
-    image: SebastianTremblay,
-    name: "Sebastian Tremblay",
-    link: "https://www.linkedin.com/in/vschacknies/",
-    class: "alpha",
+    image: WilliamTurner,
+    name: "Jack Turner",
+    link: "https://www.linkedin.com/in/william-turner-4b3a3b1b0/",
+    class: "beta",
   },
   {
     image: AylaUrquizo,
     name: "Ayla Urquizo",
     link: "https://www.linkedin.com/in/ayla-urquizo/",
     class: "alpha",
+  },
+  {
+    image: AlexWeinstein,
+    name: "Alex Weinstein",
+    link: "https://www.linkedin.com/in/alexweinstein21/",
+    class: "beta",
   },
   {
     image: ZacharyWen,
@@ -334,6 +450,27 @@ export const activeMembers = [
     image: RichardZhao,
     name: "Richard Zhao",
     link: "https://www.linkedin.com/in/richardzhaoo/",
+    class: "alpha",
+  },
+];
+
+export const alumni = [
+  {
+    image: NickByrne,
+    name: "Nick Byrne",
+    link: "https://www.linkedin.com/in/nicholasrbyrne/",
+    class: "founding",
+  },
+  {
+    image: AidanNiceberg,
+    name: "Aidan Niceberg",
+    link: "https://www.linkedin.com/in/aidanniceberg/",
+    class: "founding",
+  },
+  {
+    image: SebastianTremblay,
+    name: "Sebastian Tremblay",
+    link: "https://www.linkedin.com/in/sebastiantremblay/",
     class: "alpha",
   },
 ];
