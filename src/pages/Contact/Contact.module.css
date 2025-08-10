@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: row;
   gap: 4rem;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .contactInfoWrapper {
@@ -50,12 +50,12 @@
   color: var(--primary-dark-blue);
 }
 
-/* Modern Contact page styles for consistency with About/Members */
 .contentWrapper {
   position: relative;
   background: #f8fafc;
   min-height: 100vh;
   overflow-x: hidden;
+  justify-items: center;
 }
 
 .contentWrapper::before {
@@ -80,8 +80,8 @@
   position: relative;
   z-index: 1;
   padding: 2rem;
-  max-width: 900px;
-  margin: 0 auto 2.5rem auto;
+  max-width: 1200px;
+  margin: 0 2rem 1rem 2rem;
   background: none;
   border-bottom: 2px solid var(--secondary-green);
   border-radius: 0;
@@ -103,9 +103,40 @@
 
 .cardGrid {
   display: flex;
+  flex-direction: column;
   gap: 2rem;
-  flex-wrap: wrap;
-  justify-content: center;
+}
+
+.contactCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.cardImage {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.cardContent {
+  flex: 1;
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.cardText {
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
 /* ContactCard styling similar to PillarCard */
@@ -204,5 +235,26 @@
 
   .section {
     padding: 1.2rem 1rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .contactCard,
+  .contactCardReverse {
+    flex-direction: column !important;
+    align-items: stretch;
+    text-align: left;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  .cardImage {
+    order: 2;
+    max-width: 100%;
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+  .cardContent {
+    order: 1;
+    width: 100%;
   }
 }
