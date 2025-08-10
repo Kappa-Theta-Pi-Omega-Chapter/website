@@ -232,3 +232,43 @@
     min-height: 120px;
   }
 }
+
+@media (max-width: 600px) {
+  .contentWrapper {
+    padding: 0;
+  }
+  .section {
+    padding: 1.2rem 0.3rem 2rem 0.3rem;
+    margin: 1.2rem auto 1.2rem auto;
+    max-width: 100vw;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .section h2 {
+    font-size: 1.3rem;
+    margin-bottom: 0;
+    padding-bottom: 0.1rem;
+  }
+  .networkLogosWrapper {
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0.5rem;
+    overflow-x: auto;
+  }
+  .networkLogo {
+    height: 25px;
+    padding: 2.5px;
+  }
+  .bannerSection {
+    height: 100px;
+    min-height: 70px;
+    max-height: 120px;
+  }
+  
+  .typingText {
+    font-size: 0.6rem;
+    border-right: 1px solid #22c55e;
+    padding: 0.2rem;
+  }
+}

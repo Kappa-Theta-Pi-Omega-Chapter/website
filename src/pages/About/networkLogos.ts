@@ -3,8 +3,8 @@ export const networkLogos = [
   "linkedin.png",
   "bcg.png",
   "nasa.png",
-  "blackrock.png",
   "rtx.png",
+  "blackrock.png",
   "kmw.png",
 
   "whoop.png",
