@@ -17,12 +17,10 @@ function App() {
           <Route path={ROUTES.HOME} element={<About />} />
           <Route path={ROUTES.MEMBERS} element={<Members />} />
           <Route path={ROUTES.CONTACT_US} element={<Contact />} />
+          <Route path={ROUTES.RUSH} element={<Rush />} />
+          <Route path={ROUTES.ABOUT_US} element={<About />} />
         </Routes>
       </div>
-      <Routes>
-        <Route path={ROUTES.RUSH} element={<Rush />} />
-        <Route path={ROUTES.ABOUT_US} element={<About />} />
-      </Routes>
     </BrowserRouter>
   );
 }

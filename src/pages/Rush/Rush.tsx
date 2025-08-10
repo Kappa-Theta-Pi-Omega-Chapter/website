@@ -89,7 +89,7 @@ function Rush() {
             Welcome to Kappa Theta Pi's Fall 2025 Rush!
           </p>
           <p className={styles.subtitle}>
-            Here's our rush schedule, applications are due DD, MM, 2025 {/* TODO: update rush schedule */}
+            Here's our rush schedule, applications are due 9/16/2025 {/* TODO: update rush schedule */}
           </p>
           <div className={styles.buttons}>
             <a href="https://forms.gle/exampL3" target="_blank" rel="noopener noreferrer" className={styles.button}>

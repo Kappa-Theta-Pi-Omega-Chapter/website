@@ -1,5 +1,8 @@
 .wrapper {
   margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .header {
@@ -13,6 +16,22 @@
   margin: 1rem 1.5rem;
 }
 
-.cardStack > * {
+.cardStack>* {
   margin: 14px;
+}
+
+@media (max-width: 900px) {
+  .cardStack>* {
+    flex: 0 1 calc(33.333% - 0.7rem);
+  }
+}
+
+@media (max-width: 780px) {
+  .cardStack>* {
+    flex: 0 1 calc(33.333% - 0.4rem);
+  }
+
+  .wrapper {
+    margin-top: 2rem;
+  }
 }

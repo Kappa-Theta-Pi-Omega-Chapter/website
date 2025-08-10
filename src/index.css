@@ -40,9 +40,3 @@ h6 {
   padding-top: 64px; /* matches navbar height */
 }
 
-/* small screens */
-@media (max-width: 768px) {
-  .content-wrapper {
-    margin: 4rem 2rem 2rem 2rem;
-  }
-}

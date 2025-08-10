@@ -17,14 +17,16 @@ function MemberCard({ image, name, position, link, class: memberClass }: MemberC
     <div className={styles.card}>
       <div className={styles.imageContainer}>
         <img src={image} alt={name} className={styles.memberImage} />
-        <a
-          target="_blank"
-          href={link}
-          className={styles.linkedinOverlay}
-          tabIndex={-1}
-        >
-          <FaLinkedin className={styles.linkedinIcon} />
-        </a>
+        {link && (
+          <a
+            target="_blank"
+            href={link}
+            className={styles.linkedinOverlay}
+            tabIndex={-1}
+          >
+            <FaLinkedin className={styles.linkedinIcon} />
+          </a>
+        )}
         {greekLetter && (
           <div className={styles.greekLetterOverlay}>
             <span className={styles.greekLetter}>{greekLetter}</span>

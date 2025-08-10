@@ -14,6 +14,7 @@
   transition: opacity 0.3s ease-in-out;
   position: relative;
   display: block;
+  margin: 0 auto;
 }
 
 .imageContainer:hover .memberImage,
@@ -23,8 +24,10 @@
 
 .imageContainer {
   position: relative;
-  display: block;
+  display: flex;
   width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .linkedinOverlay {
@@ -77,4 +80,54 @@
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.cardContent h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  word-break: break-word;
+  text-align: center;
+}
+
+.cardContent p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #234c8b;
+  word-break: break-word;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+    max-width: 300px;
+    margin: 5px auto;
+    padding: 0;
+  }
+
+  .memberImage {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media (max-width: 600px) {
+  .cardContent h3 {
+    font-size: 0.95rem;
+  }
+  .cardContent p {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .cardContent h3 {
+    font-size: 0.7rem;
+  }
+  .cardContent p {
+    font-size: 0.65rem;
+  }
 }
