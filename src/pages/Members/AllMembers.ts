@@ -28,7 +28,7 @@ import JulianaGuarrera from "/MemberPhotos/JulianaGuarrera.png";
 import KevinCooper from "/MemberPhotos/KevinCooper.png";
 import MariamKhalil from "/MemberPhotos/MariamKhalil.png";
 import MeiLuangkhot from "/MemberPhotos/MeiLuangkhot.png";
-import MichealBrennan from "/MemberPhotos/MichealBrennan.png";
+import MichaelBrennan from "/MemberPhotos/MichaelBrennan.png";
 import OwenSharpe from "/MemberPhotos/OwenSharpe.png";
 import QuinnCahill from "/MemberPhotos/QuinnCahill.png";
 import RichardZhao from "/MemberPhotos/RichardZhao.png";
@@ -189,8 +189,8 @@ export const activeMembers = [
     class: "alpha",
   },
   {
-    image: MichealBrennan,
-    name: "Micheal Brennan",
+    image: MichaelBrennan,
+    name: "Michael Brennan",
     link: "https://www.linkedin.com/in/michael-brennan-67a13b2b1/",
     class: "alpha",
   },
