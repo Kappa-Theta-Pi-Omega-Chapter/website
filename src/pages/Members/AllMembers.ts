@@ -46,7 +46,7 @@ import HaileySalce from "/MemberPhotos/HaileySalce.jpg";
 import EleanorMeltzer from "/MemberPhotos/EleanorMeltzer.png";
 import RowenLatif from "/MemberPhotos/RowenLatif.jpeg";
 import LilyHartley from "/MemberPhotos/LilyHartley.png";
-import WilliamAntsey from "/MemberPhotos/WilliamAntsey.png";
+import WilliamAnstey from "/MemberPhotos/WilliamAnstey.png";
 import AnirudhGopalan from "/MemberPhotos/AnirudhGopalan.jpeg";
 import PrabhavGupta from "/MemberPhotos/PrabhavGupta.jpeg";
 import MadalynnNenninger from "/MemberPhotos/MaddyNenninger.jpeg";
@@ -177,7 +177,7 @@ export const activeMembers = [
     class: "founding",
   },
   {
-    image: WilliamAntsey,
+    image: WilliamAnstey,
     name: "William Anstey",
     link: "https://www.linkedin.com/in/william-anstey-84237a21a/",
     class: "beta",
@@ -425,7 +425,7 @@ export const activeMembers = [
   {
     image: WilliamTurner,
     name: "Jack Turner",
-    link: "https://www.linkedin.com/in/william-turner-4b3a3b1b0/",
+    link: "https://www.linkedin.com/in/turnerwj/",
     class: "beta",
   },
   {
