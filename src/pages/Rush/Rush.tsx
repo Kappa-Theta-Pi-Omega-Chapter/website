@@ -6,51 +6,51 @@ const applicationDueDate = "9/16/2025";
 function Rush() {
   const events = [
     {
-      title: "Info Session 1",
-      date: "Mon, Jan 15",
-      time: "7:00 PM",
-      location: "Snell Library 90",
+      title: "Info Session",
+      date: "Mon, Sep 8",
+      time: "6:30 PM",
+      location: "TBD",
       description:
         "Come learn about KTP and what we do! Learn about our upcoming events, rush process, and ask questions.",
     },
     {
-      title: "Meet The Brothers Social",
-      date: "Wed, Jan 17",
+      title: "Meet The Brothers",
+      date: "Tue, Sep 9",
       time: "6:30 PM",
-      location: "Curry Student Center",
+      location: "TBD",
       description:
         "Join us for a casual social to meet the brothers and learn more about our fraternity!",
     },
     {
-      title: "Resume & Co-op Workshop",
-      date: "Fri, Jan 19",
-      time: "8:00 PM",
-      location: "Richards Hall 235",
+      title: "Co-op Panel",
+      date: "Wed, Sep 10",
+      time: "6:30 PM",
+      location: "TBD",
       description:
-        "Attend a hands-on workshop on resume building and hear from brothers about their co-op experiences.",
+        "Attend to learn more about the co-op process and hear from brothers about their co-op experiences.",
     },
     {
-      title: "Info Session 2",
-      date: "Mon, Jan 22",
-      time: "7:00 PM",
-      location: "West Village H 102",
+      title: "Invite Only Event",
+      date: "Tue, Sep 16",
+      time: "Invite Only",
+      location: "TBD",
       description:
-        "Learn more about our plans for the semester, national alumni network, and the core pillars of our fraternity.",
+        "Learn more about our plans for the semester and meet the brothers.",
     },
     {
       title: "APPLICATIONS DUE",
-      date: "Fri, Jan 26",
+      date: "Tue, Sep 16",
       time: "11:59 PM",
       location: "Online",
       description: "Formally submit your application to rush KTP.",
     },
     {
       title: "Interviews",
-      date: "Jan 28 - Feb 3",
+      date: "Sep 17 - Sep 18",
       time: "Invite Only",
       location: "TBD",
       description:
-        "First and Final round interviews for selected candidates. This is your chance to show us why you belong in KTP.",
+        "Interviews for selected candidates. This is your chance to show us why you belong in KTP.",
     },
   ];
 
@@ -94,11 +94,11 @@ function Rush() {
             Here's our rush schedule, applications are due {applicationDueDate} {/* TODO: update rush schedule */}
           </p>
           <div className={styles.buttons}>
-            <a href="https://forms.gle/exampL3" target="_blank" rel="noopener noreferrer" className={styles.button}>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSe4Im6AP8bK4ijtK0auMax1Q5c6yd1gCXG_BOhn7u4MhqEQig/viewform" target="_blank" rel="noopener noreferrer" className={styles.button}>
               Interest Form
             </a>
-            <a href="https://forms.gle/exampL3" target="_blank" rel="noopener noreferrer" className={`${styles.button} ${styles.buttonSecondary}`}>
-              Application Link
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSe4Im6AP8bK4ijtK0auMax1Q5c6yd1gCXG_BOhn7u4MhqEQig/viewform" target="_blank" rel="noopener noreferrer" className={`${styles.button} ${styles.buttonSecondary}`}>
+              Application Link (TBD)
             </a>
           </div>
           {/* TODO: maybe we can create a calendar link */}

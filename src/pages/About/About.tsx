@@ -71,7 +71,7 @@ function About() {
         <div className={styles.historyContent}>
           <p>
             Kappa Theta Pi takes pride in being the first professional
-            technology in the country, now coming to Northeastern University.
+            technology in the country, and has been at Northeastern University since 2024. 
             Our members are passionate about technology and are dedicated to
             making a positive impact on the world. We are a community of
             like-minded individuals who share a love for technology and a desire
