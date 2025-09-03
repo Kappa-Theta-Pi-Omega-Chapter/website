@@ -20,7 +20,7 @@ import ErikaKirchbach from "/MemberPhotos/ErikaKirchbach.png";
 import FraniPendus from "/MemberPhotos/FraniPendus.png";
 import AylaUrquizo from "/MemberPhotos/AylaUrquizo.png";
 import GraceUecker from "/MemberPhotos/GraceUecker.png";
-import HenryCaldwell from "/MemberPhotos/HenryCaldwell.png";
+import HenryCaldwell from "/MemberPhotos/HenryCaldwell.jpg";
 import JackDreifus from "/MemberPhotos/JackDreifus.png";
 import JakeBernhard from "/MemberPhotos/JakeBernhard.png";
 import JoshBarde from "/MemberPhotos/JoshBarde.png";
