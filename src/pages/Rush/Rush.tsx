@@ -97,9 +97,6 @@ function Rush() {
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSe4Im6AP8bK4ijtK0auMax1Q5c6yd1gCXG_BOhn7u4MhqEQig/viewform" target="_blank" rel="noopener noreferrer" className={styles.button}>
               Interest Form
             </a>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSe4Im6AP8bK4ijtK0auMax1Q5c6yd1gCXG_BOhn7u4MhqEQig/viewform" target="_blank" rel="noopener noreferrer" className={`${styles.button} ${styles.buttonSecondary}`}>
-              Application Link (TBD)
-            </a>
           </div>
           {/* TODO: maybe we can create a calendar link */}
           {/* <p className={styles.calendarLink}>

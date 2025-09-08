@@ -144,9 +144,16 @@ export const executiveBoard = [
   {
     image: CalliColvin,
     name: "Calli Colvin",
-    position: "VP Marketing",
+    position: "Co-VP Marketing",
     link: "https://www.linkedin.com/in/calli-colvin-b720b32a8/",
     class: "founding",
+  },
+  {
+    image: EashaPatel,
+    name: "Easha Patel",
+    position: "Co-VP Marketing",
+    link: "https://www.linkedin.com/in/easha-patel/",
+    class: "alpha",
   },
   {
     image: LoreleiDuarte,
@@ -325,12 +332,6 @@ export const activeMembers = [
     name: "Alexandra Paul",
     link: "https://www.linkedin.com/in/alexandra-paul-aba338262/",
     class: "founding",
-  },
-  {
-    image: EashaPatel,
-    name: "Easha Patel",
-    link: "https://www.linkedin.com/in/easha-patel/",
-    class: "alpha",
   },
   {
     image: FraniPendus,
